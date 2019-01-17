@@ -129,7 +129,6 @@ public class HomePageItems extends CommonAPI {
         System.out.println("Suppliers Search Page Titel: " + title);
         return title;
     }
-
     //T3ALI_HP_TC03
     public String quotesSearchOption() {
         productSearchOption.click();
@@ -140,7 +139,6 @@ public class HomePageItems extends CommonAPI {
         System.out.println("Quotes page Title: " + title);
         return title;
     }
-
     //T3ALI_HP_TC04 Verify by Sourcing Solutions
     public String sourcingSolutions() {
         //hover Sourcing Solutions
@@ -157,13 +155,11 @@ public class HomePageItems extends CommonAPI {
         System.out.println("Page titel for Sourcing Solutions: " + title);
         return title;
     }
-
     //T3ALI_SI_TC02, T3ALI_SI_TC01
     public void clikSignIn() throws InterruptedException {
         sleepFor(4);
         signInButton.click();
     }
-
     //T3ALI_SI_TC13, Get Account Holder Name from My Alibaba
     public String hoverOverMyAccount() {
         driver.navigate();
@@ -172,7 +168,6 @@ public class HomePageItems extends CommonAPI {
         String actuaMessage = greetingsToAccountHolder.getText();
         return actuaMessage;
     }
-
     //T3ALI_HP_TC05
     public boolean homePageButtonStatus() {
         System.out.println("Get The App link status: " + getTheAppLink.isEnabled());
@@ -180,7 +175,6 @@ public class HomePageItems extends CommonAPI {
         boolean bl = favoriteLink.isEnabled();
         return bl;
     }
-
     //T3ALI_HP_TC06
     public String categories() {
         //hover over Categories. Hover in multiple windows.
@@ -191,7 +185,6 @@ public class HomePageItems extends CommonAPI {
         String url = driver.getCurrentUrl();
         return url;
     }
-
     // T3ALI_HP_TC07 verify logo displayed on homepage or not
     public boolean clickLogo() {
         boolean displayed = logo.isDisplayed();
@@ -199,14 +192,12 @@ public class HomePageItems extends CommonAPI {
         return enabled;
 
     }
-
     // T3ALI_HP_TC08 Verify Order Protection Link
     public boolean orderProtectionButtonStatus() {
         boolean displayed = orderProtectionButton.isDisplayed();
         boolean enabled = orderProtectionButton.isEnabled();
         return enabled;
     }
-
     public void categoriesList() {
         //getTextFromWebElements("//div[class=\"component-list\"]");
         List<String> sortByOptions = new ArrayList<>();
@@ -217,9 +208,7 @@ public class HomePageItems extends CommonAPI {
         for (String st : sortByOptions) {
             System.out.println(st);
         }
-
     }
-
     //T3ALI_HP_TC10 Trade Alert Subscription
     public String tradeAlertSubscription() throws InterruptedException {
         emailBoxToSubscribeForTradeAlert.sendKeys("testdata.islam@gmail.com");
@@ -228,7 +217,6 @@ public class HomePageItems extends CommonAPI {
         String currentUrl = driver.getCurrentUrl();
         return currentUrl;
     }
-
     //T3ALI_HP_TC11 Help Center Link Status
     public String helpCenterLinkStatus() throws InterruptedException {
         helpCenterLink.click();
@@ -240,7 +228,6 @@ public class HomePageItems extends CommonAPI {
         String text = verificationPointHelpCenter.getText();
         return text;
     }
-
     //T3ALI_HP_TC12 About ALibaba.com Link Status
     public String aboutAlibabaLinkStatus() throws InterruptedException {
         aboutAlibabaLink.click();
@@ -249,7 +236,6 @@ public class HomePageItems extends CommonAPI {
         String text = verificationPointAboutAlibaba.getText();
         return text;
     }
-
     //T3ALI_HP_TC13 About Wholesale Market Link Status
     public String wholesaleMarketLinkStatus() throws InterruptedException {
         wholesalerMarket.click();
@@ -260,7 +246,6 @@ public class HomePageItems extends CommonAPI {
 
         return text;
     }
-
     //T3ALI_HP_TC14 Move to top button functionality check
     public String topButtonVerification() throws InterruptedException {
         System.out.println("My Alibab Display Status: " + myAlibaba.isDisplayed());
@@ -277,7 +262,6 @@ public class HomePageItems extends CommonAPI {
         String location = "Location after clik to Top Button: " + moveToTopButton.getLocation();
         return location;
     }
-
     //T3ALI_HP_TC14 Quotes request
     public void quotesRequestForm() {
         productNameForQuotes.sendKeys("Laptop");
@@ -289,14 +273,12 @@ public class HomePageItems extends CommonAPI {
         switchWindow(driver);
         System.out.println("Page Title: " + driver.getTitle());
     }
-
     //RFQ Details
     public void quotesRequestFormDetails() {
         implicitWait(driver, 10);
         productDetailedSpecifications.sendKeys("30 Days");
         submitRFQ.click();
     }
-
     //PoP Up Sign In
     public void popUpSignIn() {
         implicitWait(driver, 15);
@@ -309,6 +291,4 @@ public class HomePageItems extends CommonAPI {
         List<String> expectedLinkList = getAssertData("../AliBaba/data/HomePageLinkData.xls",2);
         assertData(actualLinkList,expectedLinkList);
     }*/
-
-
 }

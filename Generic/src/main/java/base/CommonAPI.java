@@ -21,7 +21,6 @@ import reporting.ExtentManager;
 import reporting.ExtentTestManager;
 import reporting.TestLogger;
 import utility.DataReader;
-
 import java.io.*;
 import java.lang.reflect.Method;
 import java.net.HttpURLConnection;
@@ -57,11 +56,9 @@ public class CommonAPI {
     public void afterEachTestMethod(ITestResult result) {
         ExtentTestManager.getTest().getTest().setStartedTime(getTime(result.getStartMillis()));
         ExtentTestManager.getTest().getTest().setEndedTime(getTime(result.getEndMillis()));
-
         for (String group : result.getMethod().getGroups()) {
             ExtentTestManager.getTest().assignCategory(group);
         }
-
         if (result.getStatus() == 1) {
             ExtentTestManager.getTest().log(LogStatus.PASS, "Test Passed");
         } else if (result.getStatus() == 2) {
@@ -85,15 +82,11 @@ public class CommonAPI {
         calendar.setTimeInMillis(millis);
         return calendar.getTime();
     }
-
-
     public static WebDriver driver = null;
     private String browserstack_username = "mahmud22";
     private String browserstack_accesskey = "Fk8ifaGTGsAVWzeeWHpN";
     private String saucelabs_username = "";
     private String saucelabs_accesskey = "";
-
-
 
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
     @BeforeMethod
@@ -115,7 +108,6 @@ public class CommonAPI {
         driver.get(url);
         //driver.manage().window().maximize();
     }
-
     public WebDriver getLocalDriver(String browserName, String os) {
         if (browserName.equalsIgnoreCase("chrome")) {
             if (os.equalsIgnoreCase("windows")) {
@@ -136,10 +128,8 @@ public class CommonAPI {
         }
         return driver;
     }
-
     public WebDriver getCloudDriver(String envName, String envUsername, String envAccessKey, String os, String os_version, String browserName,
                                     String browserVersion) throws IOException {
-
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability("browser", "Chrome");
         caps.setCapability("browser_version", "62.0");
@@ -157,20 +147,15 @@ public class CommonAPI {
         return driver;
     }
 
-
-
-
     @AfterMethod
     public void cleanUP(){
         //driver.close();
         driver.quit();
     }
-
     //type
     public void typeOnCss(String locator, String value){
         driver.findElement(By.cssSelector(locator)).sendKeys(value);
     }
-
     public void typeOnID(String locator, String value){
         driver.findElement(By.id(locator)).sendKeys(value);
     }
@@ -273,7 +258,6 @@ public class CommonAPI {
         }
         return actualLinks;
     }
-
     //Synchronization
     public void waitUntilClickAble(WebElement webElement){
         WebDriverWait wait = new WebDriverWait(driver, 35);
@@ -293,8 +277,6 @@ public class CommonAPI {
            path= "C:\\Users\\rrt\\Pictures\\ds1.png";
          */
     }
-
-
     // Assert Data
     public void assertData(List<String> actualList, List<String> expectedList){
         for (int i = 0; i < actualList.size(); i++) {
@@ -308,12 +290,10 @@ public class CommonAPI {
         element.sendKeys(keys);
         TestLogger.log("Keys Sent Successfully to "+ elementName);
     }
-
     public static void captureScreenshot(WebDriver driver, String screenshotName){
         DateFormat df = new SimpleDateFormat("(MM.dd.yyyy-HH:mma)");
         Date date = new Date();
         df.format(date);
-
         File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         try {
             FileUtils.copyFile(file, new File(System.getProperty("user.dir")+ "/screenshots/"+screenshotName+" "+df.format(date)+".png"));
@@ -321,25 +301,17 @@ public class CommonAPI {
         } catch (Exception e) {
             System.out.println("Exception while taking screenshot "+e.getMessage());;
         }
-
     }
     public static String convertToString(String st){
         String splitString ;
         splitString = StringUtils.join(StringUtils.splitByCharacterTypeCamelCase(st), ' ');
         return splitString;
     }
-
-
-
-
-
-
     //get title of the current page
     public static String showTitle(WebDriver driver) {
         String title = driver.getTitle();
         return title;
     }
-
     //return status of link if it is enabled
     public static boolean isEnableStatus(WebDriver driver, WebElement web) {
         boolean en = web.isEnabled();
@@ -406,12 +378,10 @@ public class CommonAPI {
         }
         return items;
     }
-
     public void selectOptionByVisibleText(WebElement element, String value) {
         Select select = new Select(element);
         select.selectByVisibleText(value);
     }
-
     //handling Alert
     public void okAlert(){
         Alert alert = driver.switchTo().alert();
@@ -445,13 +415,10 @@ public class CommonAPI {
         splitString = StringUtils.join(StringUtils.splitByCharacterTypeCamelCase(st), ' ');
         return splitString;
     }
-
-
     public void dropDown(WebElement web, int x){
         Select dropdown = new Select(web);
         dropdown.selectByIndex(x);
     }
-
     public void inputValueInTextBoxByWebElement(WebElement webElement, String value){
         webElement.sendKeys(value + Keys.ENTER);
     }
@@ -468,20 +435,17 @@ public class CommonAPI {
         List<String> output = Arrays.asList(dtr.colReader(DataFilePath,ColumnNo));
         return output;
     }
-
     public static void sendKeys(WebElement webElement, String webElementName, String keys){
         webElement.clear();
         TestLogger.log("Sending " + keys + " to " + webElementName);
         webElement.sendKeys(keys);
         TestLogger.log("Keys Sent to " + webElementName);
     }
-
     public static String getText(WebElement webElement, String webElementName){
         TestLogger.log("Getting Text from " + webElementName);
         String actualText =  webElement.getText();
         TestLogger.log("Actual text: " + actualText);
         return actualText;
-
     }
     public static void click(WebElement webElement, String webElementName){
         TestLogger.log("Click " + webElementName );
@@ -496,7 +460,6 @@ public class CommonAPI {
         ism.close();
         return prop;
     }
-
     public void brokenLink() throws java.net.MalformedURLException, IOException {
         //Step:1- Get the list of all links and images
         List<WebElement> linksList=driver.findElements(By.tagName("a"));
@@ -522,7 +485,6 @@ public class CommonAPI {
             System.out.println(activeLinks.get(j).getAttribute("href")+"----->>> "+response);
         }
     }
-
 }
 
 
