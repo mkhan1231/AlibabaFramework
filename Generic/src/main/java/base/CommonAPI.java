@@ -24,6 +24,7 @@ import utility.DataReader;
 
 import java.io.*;
 import java.lang.reflect.Method;
+import java.net.HttpURLConnection;
 import java.net.URL;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -494,6 +495,32 @@ public class CommonAPI {
         prop.load(ism);
         ism.close();
         return prop;
+    }
+
+    public void brokenLink() throws java.net.MalformedURLException, IOException {
+        //Step:1- Get the list of all links and images
+        List<WebElement> linksList=driver.findElements(By.tagName("a"));
+        linksList.addAll(driver.findElements(By.tagName("img")));
+        System.out.println("Total number of Links and Images---->>> "+linksList.size());
+        List<WebElement> activeLinks=new ArrayList<WebElement>();
+
+        //Step:2- Iterate LinksList, exclude all links/images which do not have any href atribute
+        for (int i=0; i<linksList.size();i++) {
+            System.out.println(linksList.get(i).getAttribute("href"));
+            if(linksList.get(i).getAttribute("href") !=null && ( ! linksList.get(i).getAttribute("href").contains("javascript") && ( ! linksList.get(i).getAttribute("href").contains("mailto")))){
+                activeLinks.add(linksList.get(i));
+            }
+        }
+        System.out.println("Total number of Active Links and Images---->>> "+activeLinks.size());
+
+        //Step:3- Check the href url with http connection API
+        for(int j=0; j<activeLinks.size();j++){
+            HttpURLConnection connection= (HttpURLConnection)  new URL(activeLinks.get(j).getAttribute("href")).openConnection();
+            connection.connect();
+            String response=connection.getResponseMessage();
+            connection.disconnect();
+            System.out.println(activeLinks.get(j).getAttribute("href")+"----->>> "+response);
+        }
     }
 
 }

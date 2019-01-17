@@ -16,11 +16,13 @@
             <!--<class name="TestHome"/>-->
             <!--<class name="test.search.TestSearch"/>-->
             <!--<class name="test.search.TestHomePageItems"/>-->
-            <class name="test.search.TestProductPageItems"/>
+            <!--<class name="test.search.TestProductPageItems"/>-->
             <!--<class name="testSignInPageObjects.TestByInputFromExls"/>-->
             <!--<class name="testSignInPageObjects.TestGoogleSheetsPage"/>-->
             <!--<class name="testSignInPageObjects.TestGoogleSheetLatest"/>-->
             <!--<class name="testSignInPageObjects.TestLoginPageObjects"/>-->
+            <class name="brokenLinkTest.TestBrokenLink"/>
+
 
 
 
