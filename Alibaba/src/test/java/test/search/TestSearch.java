@@ -18,13 +18,10 @@ public class TestSearch extends CommonAPI {
         SearchPage searchPage = PageFactory.initElements(driver, SearchPage.class);
         searchPage.searchItemsAndSubmitButton();
     }
-
     @Test
     public void searchItemsDB () throws Exception, IOException, SQLException, ClassNotFoundException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
             SearchPageForSQLDB searchPageForSQLDB = PageFactory.initElements(driver, SearchPageForSQLDB.class);
             searchPageForSQLDB.searchItemsAndSubmitButton();
-        }
-
-
+    }
 }

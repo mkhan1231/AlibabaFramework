@@ -6,24 +6,10 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.HomePageItems;
-
 import java.io.IOException;
 
 
 public class TestHomePageItems extends HomePageItems {
-    /*HomePageItems homePageItems;
-
-    @BeforeMethod
-    public void initializationOfElements() {
-        homePageItems = PageFactory.initElements(driver, HomePageItems.class);
-        //objOfSignInPage = PageFactory.initElements(driver, SignInPage.class);
-        //objOfProductsPage = PageFactory.initElements(driver, ProductsPage.class);
-    }
-
-    @Test(priority = 1, enabled = true)
-    public void testForHelpCenter()  {
-        homePageItems.checkHelpCenterLink();
-    }*/
 
     HomePageItems objOfHomePage;
     //SignInPage objOfSignInPage;
@@ -42,7 +28,6 @@ public class TestHomePageItems extends HomePageItems {
         String expected = "I Phone";
         Assert.assertTrue(actual.contains(expected));
     }
-
     //T3ALI_HP_TC02 Verify Search Options
     @Test(priority = 2, enabled = true)
     public void testSupplierSearch() {
@@ -50,7 +35,6 @@ public class TestHomePageItems extends HomePageItems {
         String expected = "Laptop";
         Assert.assertTrue(actual.contains(expected));
     }
-
     //T3ALI_HP_TC03 Verify Search by Quote Option
     @Test(priority = 3, enabled = true)
     public void testQuotesSearch() {
@@ -58,23 +42,19 @@ public class TestHomePageItems extends HomePageItems {
         String expected = "Manufacturers";
         Assert.assertTrue(actual.contains(expected));
     }
-
     //T3ALI_HP_TC04 Verify by Sourcing Solutions
     @Test(priority = 4, enabled = true)
     public void testSourcingSolutions() {
         String actual = objOfHomePage.sourcingSolutions();
         String expected = "Alibaba selection";
         Assert.assertTrue(expected.contains(expected));
-
     }
-
     //T3ALI_HP_TC05 Verify by Home Page Links Status
     @Test(priority = 5, enabled = true)
     public void testHompageButtonStatus() {
         boolean bl = objOfHomePage.homePageButtonStatus();
         Assert.assertTrue(bl);
     }
-
     ////T3ALI_HP_TC06 Verify Options Of Categories
     @Test(priority = 6, enabled = true)
     public void testOptionsOfCategories() {
@@ -82,27 +62,23 @@ public class TestHomePageItems extends HomePageItems {
         String expected = "Hand-Tools";
         Assert.assertTrue(actual.contains(expected));
     }
-
     @Test (priority = 7, enabled = true)
     public void testCategories() throws InterruptedException {
         HomePageItems sr = PageFactory.initElements(driver, HomePageItems.class);
         sr.categories();
     }
-
     // T3ALI_HP_TC07 verify logo displayed on homepage or not
     @Test(priority = 8, enabled = true)
     public void checkLogoVisibility() {
         boolean enabled = objOfHomePage.clickLogo();
         Assert.assertEquals(enabled, true);
     }
-
     // T3ALI_HP_TC08 Verify Order Protection Link
     @Test(priority = 9, enabled = true)
     public void testOrderProtectionButtonStatus() {
         boolean enabled = objOfHomePage.orderProtectionButtonStatus();
         Assert.assertEquals(enabled, true);
     }
-
     // T3ALI_HP_TC09
     @Test(priority = 10, enabled = true)
     public void categoriesList() {
@@ -116,7 +92,6 @@ public class TestHomePageItems extends HomePageItems {
         String expected = "https://login.alibaba.com";
         Assert.assertTrue(actual.contains(expected));
     }
-
     //T3ALI_HP_TC11 Help Center Link Status
     @Test(priority = 12, enabled = true)
     public void testHelpCenterLinkStatus() throws InterruptedException {
@@ -124,7 +99,6 @@ public class TestHomePageItems extends HomePageItems {
         String expected = "Help Center";
         Assert.assertTrue(actual.contains(expected));
     }
-
     //T3ALI_HP_TC12 About Alibaba Link Status
     @Test(priority = 13, enabled = true)
     public void testAboutAlibabaLinkStatus() throws InterruptedException {

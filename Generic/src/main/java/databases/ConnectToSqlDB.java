@@ -8,12 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
-/**
- * Created by mrahman on 04/02/18.
- */
 
 public class ConnectToSqlDB {
-
     public static Connection connect = null;
     public static Statement statement = null;
     public static PreparedStatement ps = null;
@@ -26,7 +22,6 @@ public class ConnectToSqlDB {
         ism.close();
         return prop;
     }
-
     public static Connection connectToSqlDatabase() throws IOException, SQLException, ClassNotFoundException {
         Properties prop = loadProperties();
         String driverClass = prop.getProperty("MYSQLJDBC.driver");
@@ -39,10 +34,8 @@ public class ConnectToSqlDB {
         System.out.println();
         return connect;
     }
-
     public List<String> readDataBase(String tableName, String columnName)throws Exception{
         List<String> data = new ArrayList<String>();
-
         try {
             connectToSqlDatabase();
             statement = connect.createStatement();
@@ -55,10 +48,8 @@ public class ConnectToSqlDB {
         }
         return data;
     }
-
     public List<String> readDataBase(String tableName, String columnName1, String columnName2)throws Exception{
         List<String> data = new ArrayList<String>();
-
         try {
             connectToSqlDatabase();
             statement = connect.createStatement();
@@ -83,10 +74,8 @@ public class ConnectToSqlDB {
                 connect.close();
             }
         }catch(Exception e){
-
         }
     }
-
     private List<String> getResultSetData(ResultSet resultSet2, String columnName) throws SQLException {
         List<String> dataList = new ArrayList<String>();
         while(resultSet.next()){
@@ -95,7 +84,6 @@ public class ConnectToSqlDB {
         }
         return dataList;
     }
-
     private List<String> getResultSetData(ResultSet resultSet2, String columnName1, String columnName2) throws SQLException {
         List<String> dataList = new ArrayList<String>();
         while(resultSet.next()){
@@ -106,30 +94,6 @@ public class ConnectToSqlDB {
         }
         return dataList;
     }
-
-    /*public void insertDataFromArrayToSqlTable(int [] ArrayData, String tableName, String columnName)
-    {
-        try {
-            connectToSqlDatabase();
-            ps = connect.prepareStatement("DROP TABLE IF EXISTS `"+tableName+"`;");
-            ps.executeUpdate();
-            ps = connect.prepareStatement("CREATE TABLE `"+tableName+"` (`ID` int(11) NOT NULL AUTO_INCREMENT,`SortingNumbers` bigint(20) DEFAULT NULL,  PRIMARY KEY (`ID`) );");
-            ps.executeUpdate();
-            for(int n=0; n<ArrayData.length; n++){
-                ps = connect.prepareStatement("INSERT INTO "+tableName+" ( "+columnName+" ) VALUES(?)");
-                ps.setInt(1,ArrayData[n]);
-                ps.executeUpdate();
-            }
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
-    }*/
-
     public void insertStringDataFromArrayListToSqlTable(List<String> list, String tableName, String columnName)
     {
         try {
@@ -143,7 +107,6 @@ public class ConnectToSqlDB {
                 ps.setObject(1,st);
                 ps.executeUpdate();
             }
-
         } catch (IOException e) {
             e.printStackTrace();
         } catch (SQLException e) {
@@ -152,7 +115,6 @@ public class ConnectToSqlDB {
             e.printStackTrace();
         }
     }
-
     public void insertDataFromArrayToSqlTable(int[] ArrayData, String tableName, String columnName)
     {
         try {
@@ -167,7 +129,6 @@ public class ConnectToSqlDB {
                 ps.setInt(1, ArrayData[n]);
                 ps.executeUpdate();
             }
-
         } catch (IOException e) {
             e.printStackTrace();
         } catch (SQLException e) {
@@ -176,9 +137,6 @@ public class ConnectToSqlDB {
             e.printStackTrace();
         }
     }
-
-
-
     public void insertDataFromStringToSqlTable(String ArrayData, String tableName, String columnName)
     {
         try {
@@ -194,8 +152,6 @@ public class ConnectToSqlDB {
             e.printStackTrace();
         }
     }
-
-
     public List<String> directDatabaseQueryExecute(String passQuery,String dataColumn)throws Exception{
         List<String> data = new ArrayList<String>();
 
@@ -211,7 +167,6 @@ public class ConnectToSqlDB {
         }
         return data;
     }
-
     public void insertDataFromArrayListToSqlTableforString(List<Object> list, String tableName, String columnName)
     {
         try {
@@ -234,9 +189,6 @@ public class ConnectToSqlDB {
             e.printStackTrace();
         }
     }
-
-
-
     public void insertDataFromArrayListToSqlTable(List<Object> list, String tableName, String columnName)
     {
         try {
@@ -259,7 +211,6 @@ public class ConnectToSqlDB {
             e.printStackTrace();
         }
     }
-
     public void InsertDataFromArrayListToMySql(List<String> list,String tableName, String columnName1,String columnName2 )
     {
         try {
@@ -281,7 +232,6 @@ public class ConnectToSqlDB {
             e.printStackTrace();
         }
     }
-
     public void createTableFromStringToMySql(String tableName, String columnName){
         try {
             connectToSqlDatabase();
@@ -296,9 +246,7 @@ public class ConnectToSqlDB {
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
-
     }
-
     public void insertDataFromArrayListToSqlTable_1(List<Integer> list, String tableName, String columnName) {
         try {
             connectToSqlDatabase();
@@ -318,7 +266,6 @@ public class ConnectToSqlDB {
             e.printStackTrace();
         }
     }
-
     public void createTableFromStringToMySql(String tableName, String columnName1,String columnName2){
         try {
             connectToSqlDatabase();
@@ -333,11 +280,7 @@ public class ConnectToSqlDB {
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
-
     }
-
-
-
     public void insertProfileToSqlTable(String tableName, String columnName1, String columnName2)
     {
         try {
@@ -346,8 +289,6 @@ public class ConnectToSqlDB {
             ps.setString(1,"Ankita Sing");
             ps.setInt(2,3590);
             ps.executeUpdate();
-
-
         } catch (IOException e) {
             e.printStackTrace();
         } catch (SQLException e) {
@@ -356,7 +297,6 @@ public class ConnectToSqlDB {
             e.printStackTrace();
         }
     }
-
     public static List<User> readUserProfileFromSqlTable()throws IOException, SQLException, ClassNotFoundException{
         List<User> list = new ArrayList<>();
         User user = null;
@@ -376,7 +316,6 @@ public class ConnectToSqlDB {
                 //System.out.format("%s, %s\n", name, id);
                 user = new User(name,id, dob);
                 list.add(user);
-
             }
             st.close();
         }catch (Exception e){
@@ -385,7 +324,6 @@ public class ConnectToSqlDB {
         }
         return list;
     }
-
     public static void main(String[] args)throws IOException, SQLException, ClassNotFoundException {
 
         List<User> list = readUserProfileFromSqlTable();

@@ -6,12 +6,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import reporting.TestLogger;
-
 import static org.openqa.selenium.support.How.*;
-
 public class LoginPageLatest extends CommonAPI {
     private WebDriver driver ;
-
     @FindBy(partialLinkText = "Sign In")
     public static WebElement signInButton;
     @FindBy(how = XPATH, using = ".//*[@id='fm-login-id']")
@@ -20,14 +17,13 @@ public class LoginPageLatest extends CommonAPI {
     public static WebElement passwords;
     @FindBy(how = ID, using = "fm-login-submit")
     public static WebElement submitLogIn;
-    @FindBy(how=CSS,using = ".notice-descript")
+    @FindBy(how=ID,using = "login-error")
     public static WebElement signInErrorMesage;
 
     public LoginPageLatest getLogInPageLatest() {
         signInButton.click();
         return new LoginPageLatest();
     }
-
     public LoginPageLatest login(String email, String password){
         TestLogger.log("Sending keys to email box");
         sendKeys(account, "account", email);
@@ -35,7 +31,7 @@ public class LoginPageLatest extends CommonAPI {
         click(submitLogIn,"submitLogIn");
         return new LoginPageLatest();
     }
-    public String getErroMessage(){
+    public String getErrorMessage(){
         String actualText = getText(signInErrorMesage,"signInErrorMesage");
         return actualText;
     }

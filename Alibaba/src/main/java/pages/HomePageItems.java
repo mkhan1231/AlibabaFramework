@@ -9,7 +9,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -18,11 +17,9 @@ public class HomePageItems extends CommonAPI {
 
    /*@FindBy(how = How.XPATH, using ="//a[contains(text(),'Help Center')]")
    public static WebElement checkHelpCenter;
-
     public WebElement getCheckHelpCenter() {
         return checkHelpCenter;
     }
-
     public void checkHelpCenterLink(){
         getCheckHelpCenter().click();
     }*/
@@ -61,7 +58,6 @@ public class HomePageItems extends CommonAPI {
     private WebElement logo;
     @FindBy(xpath = "//a[@data-val='ordericon']")
     private WebElement orderProtectionButton;
-    //After sign under MyAccount this location shall be available
     @FindBy(css = ".sc-hd-ms-name")
     public static WebElement greetingsToAccountHolder;
     @FindBy(partialLinkText = "My Alibaba")
@@ -70,7 +66,6 @@ public class HomePageItems extends CommonAPI {
     public static WebElement emailBoxToSubscribeForTradeAlert;
     @FindBy(css = ".J-btn-search")
     public static WebElement tradeAlertSubscriptionButton;
-    //Footer
     @FindBy(xpath = "//*[@id=\"ui-footer\"]//div[1]/dl/dd[1]/a")
     public static WebElement helpCenterLink;
     @FindBy(xpath = "//*[@id=\"J_SC_header\"]/header/div[2]/div[1]/div[1]/a")
@@ -106,8 +101,8 @@ public class HomePageItems extends CommonAPI {
     @FindBy(xpath = "//div[@id='thirdPartLogin']/a[2]")
     public static WebElement googleIconOnPoPUpSignInWindow;
     @FindBy(tagName = "a")
-    public List<WebElement> anchorTag = new ArrayList<>();
 
+    public List<WebElement> anchorTag = new ArrayList<>();
     //T3ALI_HP_TC01 Verify Home Page URL
     public String searchProduct() {
         String url = driver.getCurrentUrl();
@@ -117,7 +112,6 @@ public class HomePageItems extends CommonAPI {
         System.out.println("Get Product Search Page Title: " + title);
         return title;
     }
-
     //T3ALI_HP_TC02
     public String searchSuppliers() {
         productSearchOption.click();
@@ -190,7 +184,6 @@ public class HomePageItems extends CommonAPI {
         boolean displayed = logo.isDisplayed();
         boolean enabled = logo.isEnabled();
         return enabled;
-
     }
     // T3ALI_HP_TC08 Verify Order Protection Link
     public boolean orderProtectionButtonStatus() {
@@ -224,7 +217,6 @@ public class HomePageItems extends CommonAPI {
             driver.switchTo().window(handle);
         }
         sleepFor(5);
-
         String text = verificationPointHelpCenter.getText();
         return text;
     }
@@ -243,7 +235,6 @@ public class HomePageItems extends CommonAPI {
         switchWindow(driver);
         sleepFor(5);
         String text = vaerificationPointAWholesaleMarket.getText();
-
         return text;
     }
     //T3ALI_HP_TC14 Move to top button functionality check

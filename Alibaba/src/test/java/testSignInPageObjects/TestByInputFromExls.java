@@ -15,7 +15,6 @@ public class TestByInputFromExls extends ByInputFromExls {
     public void initialization(){
         objOfHomePage = PageFactory.initElements(driver, HomePageItems.class);
         objByInput = PageFactory.initElements(driver, ByInputFromExls.class);
-
     }
     //T3ALI_BE _TC01 LogIn by using excel sheet data
     @Test
@@ -30,7 +29,6 @@ public class TestByInputFromExls extends ByInputFromExls {
         String[] actualItems = objByInput.getVerificationValue("DataFile.xls");
         for (int i = 0; i < actualItems.length; i++) {
             Assert.assertTrue(actualItems[i].contains(expectedItems[i]));
-
             System.out.println(expectedItems[i] + ": Test - Passed");
         }
         System.out.println("signInWithInvalidIdAndPassword");

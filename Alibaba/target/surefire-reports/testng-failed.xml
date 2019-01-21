@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Alibaba Automation Script ]" guice-stage="DEVELOPMENT" verbose="0">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Alibaba Automation Script ]">
   <parameter name="useCloudEnv" value="false"/>
   <parameter name="os" value="Windows"/>
   <parameter name="os_version" value="10"/>
@@ -8,15 +8,20 @@
   <parameter name="browserName" value="Chrome"/>
   <parameter name="cloudEnvName" value="browserstack"/>
   <parameter name="url" value="https://www.alibaba.com"/>
-  <test thread-count="5" name="Alibaba Home(failed)" verbose="0">
+  <test thread-count="5" verbose="0" name="Alibaba Home(failed)">
     <classes>
-      <class name="test.search.TestSearch">
+      <class name="testSignInPageObjects.TestGoogleSheetLatest">
         <methods>
-          <include name="searchItems"/>
-          <include name="setUP"/>
+          <include name="afterEachTestMethod"/>
+          <include name="invalidSigninByGoogleSheetApi"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setUp"/>
+          <include name="initializationOfElements"/>
+          <include name="startExtent"/>
           <include name="cleanUP"/>
         </methods>
-      </class> <!-- test.search.TestSearch -->
+      </class> <!-- testSignInPageObjects.TestGoogleSheetLatest -->
     </classes>
   </test> <!-- Alibaba Home(failed) -->
 </suite> <!-- Failed suite [Alibaba Automation Script ] -->

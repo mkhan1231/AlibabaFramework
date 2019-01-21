@@ -29,15 +29,15 @@
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
-          <img src="collapseall.gif" class="collapse-all-icon">
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Alibaba_Automation_Script_" class="navigator-link">
+            <a href="#" class="navigator-link" panel-name="suite-Alibaba_Automation_Script_">
               <span class="suite-name border-failed">Alibaba Automation Script </span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Alibaba_Automation_Script_" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="test-xml-Alibaba_Automation_Script_">
                     <span>C:\Users\Mahmud Khan\IdeaProjects\AlibabaOne\Alibaba\target\test-classes\AlibabaTestRunner.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Alibaba_Automation_Script_" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="testlist-Alibaba_Automation_Script_">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Alibaba_Automation_Script_" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="group-Alibaba_Automation_Script_">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Alibaba_Automation_Script_" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="times-Alibaba_Automation_Script_">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Alibaba_Automation_Script_" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="reporter-Alibaba_Automation_Script_">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Alibaba_Automation_Script_" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Alibaba_Automation_Script_">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Alibaba_Automation_Script_" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="chronological-Alibaba_Automation_Script_">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -101,8 +101,8 @@
                     </span>
                     <div class="method-list-content failed suite-Alibaba_Automation_Script_">
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Alibaba_Automation_Script_" title="test.search.TestSearch" class="method navigator-link" hash-for-method="searchItems">searchItems</a> <!-- method navigator-link -->
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Alibaba_Automation_Script_" title="testSignInPageObjects.TestGoogleSheetLatest" hash-for-method="invalidSigninByGoogleSheetApi">invalidSigninByGoogleSheetApi</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Alibaba_Automation_Script_ -->
@@ -120,16 +120,16 @@
           <div class="suite-Alibaba_Automation_Script_-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">test.search.TestSearch</span>
+              <span class="class-name">testSignInPageObjects.TestGoogleSheetLatest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="searchItems">
-                  </a> <!-- searchItems -->
-                  <span class="method-name">searchItems</span>
-                  <div class="stack-trace">java.lang.NoSuchMethodError: test.search.TestSearch.convertToString(Ljava/lang/String;)Ljava/lang/String;
-	at test.search.TestSearch.searchItems(TestSearch.java:17)
+                  <a name="invalidSigninByGoogleSheetApi">
+                  </a> <!-- invalidSigninByGoogleSheetApi -->
+                  <span class="method-name">invalidSigninByGoogleSheetApi</span>
+                  <div class="stack-trace">java.lang.NoSuchMethodError: googleAPIs.GoogleSheetReader.getSpreadSheetRecords(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;
+	at testSignInPageObjects.TestGoogleSheetLatest.invalidSigninByGoogleSheetApi(TestGoogleSheetLatest.java:50)
 ... Removed 29 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -145,7 +145,7 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Alibaba Automation Script &quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Alibaba Automation Script &quot;&gt;
   &lt;parameter name=&quot;useCloudEnv&quot; value=&quot;false&quot;/&gt;
   &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
   &lt;parameter name=&quot;os_version&quot; value=&quot;10&quot;/&gt;
@@ -153,9 +153,9 @@
   &lt;parameter name=&quot;browserName&quot; value=&quot;Chrome&quot;/&gt;
   &lt;parameter name=&quot;cloudEnvName&quot; value=&quot;browserstack&quot;/&gt;
   &lt;parameter name=&quot;url&quot; value=&quot;https://www.alibaba.com&quot;/&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Alibaba Home&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Alibaba Home&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;test.search.TestSearch&quot;/&gt;
+      &lt;class name=&quot;testSignInPageObjects.TestGoogleSheetLatest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Alibaba Home --&gt;
 &lt;/suite&gt; &lt;!-- Alibaba Automation Script  --&gt;
@@ -197,14 +197,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'searchItems')
-data.setCell(0, 2, 'test.search.TestSearch')
-data.setCell(0, 3, 2);
+data.setCell(0, 1, 'invalidSigninByGoogleSheetApi')
+data.setCell(0, 2, 'testSignInPageObjects.TestGoogleSheetLatest')
+data.setCell(0, 3, 47765);
 window.suiteTableData['Alibaba_Automation_Script_']= { tableData: data, tableDiv: 'times-div-Alibaba_Automation_Script_'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 ms</span>
+              <span class="suite-total-time">Total running time: 47 seconds</span>
               <div id="times-div-Alibaba_Automation_Script_">
               </div> <!-- times-div-Alibaba_Automation_Script_ -->
             </div> <!-- times-div -->
@@ -230,21 +230,41 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">test.search.TestSearch</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUP(https://www.alibaba.com)</span>
+              <div class="chronological-class-name">testSignInPageObjects.TestGoogleSheetLatest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">extentSetup(org.testng.TestRunner@47f9738)</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, Windows, 10, Chrome, 62.0, https://www.alibaba.com)</span>
+                <span class="method-start">164 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void testSignInPageObjects.TestGoogleSheetLatest.invalidSigninByGoogleSheetApi() throws java....)</span>
+                <span class="method-start">9082 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializationOfElements</span>
+                <span class="method-start">9089 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">searchItems</span>
-                <span class="method-start">8141 ms</span>
+                <span class="method-name">invalidSigninByGoogleSheetApi</span>
+                <span class="method-start">9122 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">cleanUP</span>
-                <span class="method-start">8151 ms</span>
+                <span class="method-name">afterEachTestMethod([TestResult name=invalidSigninByGoogleSheetApi status=FAILURE method=TestGoogleSheetLatest.invalidSi...)</span>
+                <span class="method-start">56893 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">58552 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">generateReport</span>
+                <span class="method-start">58607 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

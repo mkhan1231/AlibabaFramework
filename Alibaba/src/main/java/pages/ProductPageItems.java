@@ -32,7 +32,6 @@ public class ProductPageItems extends CommonAPI {
     private WebElement asiaCheckBox;
 
     public void toolsSearch() throws InterruptedException {
-
         System.out.println("Hand Tools Page Title: " + driver.getTitle());
         // Filter product
         waitUntilClickAble(seeMore);

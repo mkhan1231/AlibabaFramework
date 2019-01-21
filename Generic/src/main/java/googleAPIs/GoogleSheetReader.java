@@ -109,7 +109,6 @@ public class GoogleSheetReader {
             List<Object> row = getSpreadSheetRecords.get(i);
             array[i] = row.toArray(new String[row.size()]);
         }
-
         return array;
     }
     /**
@@ -120,9 +119,7 @@ public class GoogleSheetReader {
         // Build a new authorized API client service.
 
         List<List<Object>> getSpreadSheetRecords = getSpreadSheetRecords(spreadsheetId, range);
-
         String[][] array = getSpreadSheetRecords.stream().map(u -> u.toArray(new String[0])).toArray(String[][]::new);
-
         return array;
     }
 

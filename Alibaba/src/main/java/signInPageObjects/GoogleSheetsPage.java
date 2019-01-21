@@ -38,10 +38,8 @@ public class GoogleSheetsPage extends CommonAPI {
             return values;
         }
     }
-
     //ALI_GS_TC1 LogIn by using Google Sheet sheet data
     public List<String> signInByInvalidIdPass(String spreadsheetId, String range) throws IOException, InterruptedException {
-
         List<List<Object>> col2Value = getSpreadSheetRecords(spreadsheetId, range);
         List<String> actual = new ArrayList<>();
         for (List row : col2Value) {

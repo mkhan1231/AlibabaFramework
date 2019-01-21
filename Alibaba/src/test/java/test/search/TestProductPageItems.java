@@ -6,7 +6,6 @@ import org.testng.annotations.Test;
 import pages.HomePageItems;
 import pages.ProductPageItems;
 
-
 public class TestProductPageItems extends ProductPageItems {
     HomePageItems objOfHomePage;
     ProductPageItems objOfProductsPage;

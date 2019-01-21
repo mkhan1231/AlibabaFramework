@@ -10,7 +10,6 @@ import org.testng.annotations.Test;
 import reporting.TestLogger;
 
 public class LoginPageObjects extends CommonAPI {
-
     @FindBy (how= How.ID,using = "fm-login-id")
     public static WebElement account;
     @FindBy(how=How.ID,using = "forgot-password-link")
@@ -72,13 +71,11 @@ public class LoginPageObjects extends CommonAPI {
     @FindBy(xpath = "//div[@id='password']/div[2]/div[2]")
     public static WebElement gmailErrorMessage;
 
-
     //Switch to Sign In form
     public void switchToSignInForm() {
         driver.switchTo().frame("alibaba-login-box");
     }
     public void signInUsingDataProvider(String email, String passCode, String message) throws InterruptedException {
-
         // account.sendKeys(email);
         SendKeys(account,email, "account");
         password.sendKeys(passCode);
@@ -88,8 +85,6 @@ public class LoginPageObjects extends CommonAPI {
         TestLogger.log("Error Message: "+errorMessage);
         // Assert.assertEquals(errorMessage.contains(message), true);
     }
-
-
     //T3ALI_SI_TC01,
     // Sign in with invalid id and email
     public String signIn() throws InterruptedException {
@@ -100,20 +95,16 @@ public class LoginPageObjects extends CommonAPI {
         System.out.println("Sign In Error Message" + errorMessage);
         return errorMessage;
     }
-
-
     //Sign In By Mobile Number link status
     public boolean signInByMobileNumberLink() {
         boolean bl = logInByMobileNumber.isEnabled();
         return bl;
     }
-
     //Sign Join Free link status
     public boolean joinFreeLinkStatus() {
         boolean b2 = joinFreeLink.isEnabled();
         return b2;
     }
-
     // Sign In BY invalid Mobile Number
     public String signInByMobileNumber() {
         logInByMobileNumber.click();
@@ -131,32 +122,27 @@ public class LoginPageObjects extends CommonAPI {
         System.out.println("Print error message " + actualArrorMessage);
         return actualArrorMessage;
     }
-
     // Sign in by Facebook icon Status
     public boolean signInByFacebookIconStatus() {
         boolean bl = signInByFacebookIcon.isEnabled();
         return bl;
         // Assert.assertEquals(bl, true);
     }
-
     //T3ALI_SI_TC07, Sign in by Google icon Status
     public boolean signInByGoogleIconStatus() {
         boolean bl = signInByGoogleIcon.isEnabled();
         return true;
     }
-
     //T3ALI_SI_TC08, Sign in by LinkedIn icon Status
     public boolean signInByLinkInIconStatus() {
         boolean bl = signInByLinkedInIcon.isEnabled();
         return bl;
     }
-
     //T3ALI_SI_TC09, Sign in by Twitter icon Status
     public boolean signInByTwiterIconStatus() {
         boolean bl = signInByTwitterIcon.isEnabled();
         return bl;
     }
-
     //T3ALI_SI_TC10, Sign in by invalid(email & password) Twitter account
     public String signInByInvalidTwitterAccount() {
         try {
@@ -175,7 +161,6 @@ public class LoginPageObjects extends CommonAPI {
         twitterLogInErrorMessageClose.click();
         return actualErrorMessage;
     }
-
     //T3ALI_SI_TC11, Sign in by invalid(email & password) Twitter account
     public String signInByValidTwitterAccount() {
         try {
@@ -190,11 +175,9 @@ public class LoginPageObjects extends CommonAPI {
         twitterPassword.sendKeys("jitu2543");
         twitterSignInButton.click();
         implicitWait(driver,5);
-
         String actuaMessage = twitterRegistrationCompletionRequestMessage.getText();
         return actuaMessage;
     }
-
     //T3ALI_SI_TC12 , Sign in by invalid(email & password) Twitter account
     public String signInByInvalidFacebookAccount() {
         try {
@@ -226,7 +209,6 @@ public class LoginPageObjects extends CommonAPI {
         googleEmailInputBox.sendKeys("testdata.islam@gmail.com" + Keys.ENTER);
         googlePasswordInputBox.sendKeys("testdata" + Keys.ENTER);
     }
-
     // Get Help Here option verification
     public void getHlepHere() {
         getHelp.click();

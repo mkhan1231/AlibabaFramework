@@ -4,9 +4,7 @@ package signInPageObjects;
         import org.openqa.selenium.WebElement;
         import org.openqa.selenium.support.FindBy;
         import utility.DataReader;
-
         import java.io.IOException;
-
         import static org.openqa.selenium.support.How.ID;
         import static org.openqa.selenium.support.How.XPATH;
 
@@ -15,10 +13,8 @@ public class ByInputFromExls extends CommonAPI {
     public static WebElement account;
     @FindBy(how = ID, using = "fm-login-password")
     public static WebElement password;
-
     @FindBy(how = ID, using = "fm-login-submit")
     public static WebElement submitLogIn;
-
     @FindBy(className = "notice-descript")
     public static WebElement signInErrorMesage;
 
@@ -26,7 +22,6 @@ public class ByInputFromExls extends CommonAPI {
     public void switchToSignInForm() {
         driver.switchTo().frame("alibaba-login-box");
     }
-
     DataReader dtr = new DataReader();
     //T3ALI_BE _TC01
     public String[] getDataCol2(String fileName) throws IOException {
@@ -46,7 +41,6 @@ public class ByInputFromExls extends CommonAPI {
         String[] output = dtr.colReader(path, 4);
         return output;
     }
-
     //T3ALI_BE _TC01 LogIn by using excel sheet data
     public String[] getVerificationValue(String fileName) throws IOException, InterruptedException {
         String[] col2Value = getDataCol2(fileName);

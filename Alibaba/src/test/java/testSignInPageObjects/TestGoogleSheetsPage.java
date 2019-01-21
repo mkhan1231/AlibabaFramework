@@ -13,13 +13,11 @@ public class TestGoogleSheetsPage extends GoogleSheetsPage {
     HomePageItems objOfHomePage;
     GoogleSheetsPage objGoogleSheetsPage;
 
-
     @BeforeMethod
     public void initialization(){
         objOfHomePage = PageFactory.initElements(driver, HomePageItems.class);
         objGoogleSheetsPage = PageFactory.initElements(driver, GoogleSheetsPage.class);
     }
-
     // ALI_GS_TC1: Verify log in by taking data from a google sheets file
     @Test
     public void testLogInByInvalidIdPassUsingGoogleSheet() throws IOException, InterruptedException {

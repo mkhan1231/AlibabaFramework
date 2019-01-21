@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Alibaba" />
         <module name="Generic" />
+        <module name="RestAPI" />
       </profile>
     </annotationProcessing>
   </component>

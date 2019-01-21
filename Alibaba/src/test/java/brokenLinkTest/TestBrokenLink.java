@@ -2,7 +2,6 @@ package brokenLinkTest;
 
 import base.CommonAPI;
 import org.testng.annotations.Test;
-
 import java.io.IOException;
 
 public class TestBrokenLink extends CommonAPI {

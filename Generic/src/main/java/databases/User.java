@@ -14,12 +14,10 @@ public class User {
         this.stName = stName;
         this.stID = stID;
         this.stDOB = stDOB;
-
     }
     public String getStName() {
         return stName;
     }
-
     public void setStName(String stName) {
         this.stName = stName;
     }
