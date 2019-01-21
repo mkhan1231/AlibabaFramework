@@ -1,0 +1,15 @@
+1. Data Driven Test
+    i. From MySQL
+    ii. Google Sheet
+    iii. Microsoft Excel (both .xls and .xlsx)
+    iv. ArrayList
+
+2. Page Object Model Design
+3. Running Project by Maven
+4. Running from Jenkins
+5. Rest Assured API
+6. Pop-up Handling, OrderLifeCycle execution
+7. Extent Report
+8. Running on Browserstack
+9. Broken links and Images identification
+10.KeyWord Driven
