@@ -22,7 +22,8 @@
             <!--<class name="testSignInPageObjects.TestGoogleSheetLatest"/>-->
             <!--<class name="testSignInPageObjects.TestLoginPageObjects"/>-->
             <!--<class name="brokenLinkTest.TestBrokenLink"/>-->
-            <class name="testSignInPageObjects.TestByExcelSX"/>
+            <!--<class name="testSignInPageObjects.TestByExcelSX"/>-->
+            <class name="testingPurchase.TestPurchase"/>
 
 
 
