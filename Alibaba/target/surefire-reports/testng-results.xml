@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="3" ignored="0" total="3" passed="0">
   <reporter-output>
     <line>
       <![CDATA[Extent Report DirectoryC:\Users\Mahmud Khan\IdeaProjects\AlibabaOne\Alibaba\target\surefire-reports\html]]>
     </line>
+    <line>
+      <![CDATA[Sending keys to email box]]>
+    </line>
+    <line>
+      <![CDATA[Sending keys to email box]]>
+    </line>
+    <line>
+      <![CDATA[Sending keys to email box]]>
+    </line>
   </reporter-output>
-  <suite name="Alibaba Automation Script " duration-ms="58402" started-at="2019-01-19T03:54:45Z" finished-at="2019-01-19T03:55:43Z">
+  <suite name="Alibaba Automation Script " duration-ms="146328" started-at="2019-01-21T10:36:55Z" finished-at="2019-01-21T10:39:21Z">
     <groups>
     </groups>
-    <test name="Alibaba Home" duration-ms="58402" started-at="2019-01-19T03:54:45Z" finished-at="2019-01-19T03:55:43Z">
-      <class name="testSignInPageObjects.TestGoogleSheetLatest">
-        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:testSignInPageObjects.TestGoogleSheetLatest@215be6bb]" name="extentSetup" is-config="true" duration-ms="155" started-at="2019-01-19T03:54:45Z" finished-at="2019-01-19T03:54:45Z">
+    <test name="Alibaba Home" duration-ms="146328" started-at="2019-01-21T10:36:55Z" finished-at="2019-01-21T10:39:21Z">
+      <class name="testSignInPageObjects.TestByExcelSX">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:testSignInPageObjects.TestByExcelSX@4520ebad]" name="extentSetup" is-config="true" duration-ms="104" started-at="2019-01-21T10:36:55Z" finished-at="2019-01-21T10:36:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@47f9738]]>
+                <![CDATA[org.testng.TestRunner@56b78e55]]>
               </value>
             </param>
           </params>
@@ -24,7 +33,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSignInPageObjects.TestGoogleSheetLatest@215be6bb]" name="setUp" is-config="true" duration-ms="8918" started-at="2019-01-19T03:54:45Z" finished-at="2019-01-19T03:54:54Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSignInPageObjects.TestByExcelSX@4520ebad]" name="setUp" is-config="true" duration-ms="8126" started-at="2019-01-21T10:36:55Z" finished-at="2019-01-21T10:37:03Z">
           <params>
             <param index="0">
               <value>
@@ -65,29 +74,87 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testSignInPageObjects.TestGoogleSheetLatest@215be6bb]" name="startExtent" is-config="true" duration-ms="7" started-at="2019-01-19T03:54:54Z" finished-at="2019-01-19T03:54:54Z">
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testSignInPageObjects.TestByExcelSX@4520ebad]" name="startExtent" is-config="true" duration-ms="4" started-at="2019-01-21T10:37:03Z" finished-at="2019-01-21T10:37:03Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testSignInPageObjects.TestGoogleSheetLatest.invalidSigninByGoogleSheetApi() throws java.io.IOException,java.lang.InterruptedException]]>
+                <![CDATA[public void testSignInPageObjects.TestByExcelSX.invalidSignin(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method status="PASS" signature="initializationOfElements()[pri:0, instance:testSignInPageObjects.TestGoogleSheetLatest@215be6bb]" name="initializationOfElements" is-config="true" duration-ms="33" started-at="2019-01-19T03:54:54Z" finished-at="2019-01-19T03:54:54Z">
+        <test-method status="PASS" signature="initializationOfElements()[pri:0, instance:testSignInPageObjects.TestByExcelSX@4520ebad]" name="initializationOfElements" is-config="true" duration-ms="24" started-at="2019-01-21T10:37:03Z" finished-at="2019-01-21T10:37:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializationOfElements -->
-        <test-method status="FAIL" signature="invalidSigninByGoogleSheetApi()[pri:0, instance:testSignInPageObjects.TestGoogleSheetLatest@215be6bb]" name="invalidSigninByGoogleSheetApi" duration-ms="47765" started-at="2019-01-19T03:54:54Z" finished-at="2019-01-19T03:55:42Z">
-          <exception class="java.lang.NoSuchMethodError">
+        <test-method status="FAIL" signature="invalidSignin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSignInPageObjects.TestByExcelSX@4520ebad]" name="invalidSignin" duration-ms="40677" started-at="2019-01-21T10:37:03Z" data-provider="DP" finished-at="2019-01-21T10:37:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[billgates@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wsx345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your account name or password is incorrect. ]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[googleAPIs.GoogleSheetReader.getSpreadSheetRecords(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"name","selector":"loginId"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LCVS2C2', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\MAHMUD~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60983}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: ff9b89eeea12e7ad65eb36131148d05e
+*** Element info: {Using=name, value=loginId}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NoSuchMethodError: googleAPIs.GoogleSheetReader.getSpreadSheetRecords(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;
-at testSignInPageObjects.TestGoogleSheetLatest.invalidSigninByGoogleSheetApi(TestGoogleSheetLatest.java:50)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"name","selector":"loginId"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LCVS2C2', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\MAHMUD~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60983}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: ff9b89eeea12e7ad65eb36131148d05e
+*** Element info: {Using=name, value=loginId}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+at org.openqa.selenium.By$ByName.findElement(By.java:284)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy12.clear(Unknown Source)
+at base.CommonAPI.sendKeys(CommonAPI.java:439)
+at signInPageObjects.LoginPageLatest.login(LoginPageLatest.java:29)
+at testSignInPageObjects.TestByExcelSX.invalidSignin(TestByExcelSX.java:44)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -119,30 +186,383 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NoSuchMethodError -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
+            <line>
+              <![CDATA[Sending keys to email box]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- invalidSigninByGoogleSheetApi -->
-        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testSignInPageObjects.TestGoogleSheetLatest@215be6bb]" name="afterEachTestMethod" is-config="true" duration-ms="1659" started-at="2019-01-19T03:55:42Z" finished-at="2019-01-19T03:55:43Z">
+        </test-method> <!-- invalidSignin -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testSignInPageObjects.TestByExcelSX@4520ebad]" name="afterEachTestMethod" is-config="true" duration-ms="1209" started-at="2019-01-21T10:37:44Z" finished-at="2019-01-21T10:37:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=invalidSigninByGoogleSheetApi status=FAILURE method=TestGoogleSheetLatest.invalidSigninByGoogleSheetApi()[pri:0, instance:testSignInPageObjects.TestGoogleSheetLatest@215be6bb] output={null}]]]>
+                <![CDATA[[TestResult name=invalidSignin status=FAILURE method=TestByExcelSX.invalidSignin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSignInPageObjects.TestByExcelSX@4520ebad] output=Sending keys to email box]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method status="PASS" signature="cleanUP()[pri:0, instance:testSignInPageObjects.TestGoogleSheetLatest@215be6bb]" name="cleanUP" is-config="true" duration-ms="2" started-at="2019-01-19T03:55:43Z" finished-at="2019-01-19T03:55:43Z">
+        <test-method status="PASS" signature="cleanUP()[pri:0, instance:testSignInPageObjects.TestByExcelSX@4520ebad]" name="cleanUP" is-config="true" duration-ms="0" started-at="2019-01-21T10:37:45Z" finished-at="2019-01-21T10:37:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUP -->
-        <test-method status="PASS" signature="generateReport()[pri:0, instance:testSignInPageObjects.TestGoogleSheetLatest@215be6bb]" name="generateReport" is-config="true" duration-ms="50" started-at="2019-01-19T03:55:43Z" finished-at="2019-01-19T03:55:43Z">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSignInPageObjects.TestByExcelSX@4520ebad]" name="setUp" is-config="true" duration-ms="7278" started-at="2019-01-21T10:37:45Z" finished-at="2019-01-21T10:37:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[62.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.alibaba.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testSignInPageObjects.TestByExcelSX@4520ebad]" name="startExtent" is-config="true" duration-ms="1" started-at="2019-01-21T10:37:53Z" finished-at="2019-01-21T10:37:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testSignInPageObjects.TestByExcelSX.invalidSignin(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="FAIL" signature="invalidSignin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSignInPageObjects.TestByExcelSX@4520ebad]" name="invalidSignin" duration-ms="39839" started-at="2019-01-21T10:37:53Z" data-provider="DP" finished-at="2019-01-21T10:38:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[stevejobs@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rfv567]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your account name or password is incorrect. ]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"name","selector":"loginId"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LCVS2C2', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\MAHMUD~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61204}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: d59e24936ddf4b26bf90fc7bc5c3e0f5
+*** Element info: {Using=name, value=loginId}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"name","selector":"loginId"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LCVS2C2', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\MAHMUD~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61204}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: d59e24936ddf4b26bf90fc7bc5c3e0f5
+*** Element info: {Using=name, value=loginId}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+at org.openqa.selenium.By$ByName.findElement(By.java:284)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy12.clear(Unknown Source)
+at base.CommonAPI.sendKeys(CommonAPI.java:439)
+at signInPageObjects.LoginPageLatest.login(LoginPageLatest.java:29)
+at testSignInPageObjects.TestByExcelSX.invalidSignin(TestByExcelSX.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Sending keys to email box]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidSignin -->
+        <test-method status="PASS" signature="initializationOfElements()[pri:0, instance:testSignInPageObjects.TestByExcelSX@4520ebad]" name="initializationOfElements" is-config="true" duration-ms="0" started-at="2019-01-21T10:37:53Z" finished-at="2019-01-21T10:37:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationOfElements -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testSignInPageObjects.TestByExcelSX@4520ebad]" name="afterEachTestMethod" is-config="true" duration-ms="1026" started-at="2019-01-21T10:38:32Z" finished-at="2019-01-21T10:38:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidSignin status=FAILURE method=TestByExcelSX.invalidSignin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSignInPageObjects.TestByExcelSX@4520ebad] output=Sending keys to email box]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSignInPageObjects.TestByExcelSX@4520ebad]" name="setUp" is-config="true" duration-ms="6508" started-at="2019-01-21T10:38:33Z" finished-at="2019-01-21T10:38:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[62.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.alibaba.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="cleanUP()[pri:0, instance:testSignInPageObjects.TestByExcelSX@4520ebad]" name="cleanUP" is-config="true" duration-ms="0" started-at="2019-01-21T10:38:33Z" finished-at="2019-01-21T10:38:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUP -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:testSignInPageObjects.TestByExcelSX@4520ebad]" name="startExtent" is-config="true" duration-ms="1" started-at="2019-01-21T10:38:40Z" finished-at="2019-01-21T10:38:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testSignInPageObjects.TestByExcelSX.invalidSignin(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="initializationOfElements()[pri:0, instance:testSignInPageObjects.TestByExcelSX@4520ebad]" name="initializationOfElements" is-config="true" duration-ms="1" started-at="2019-01-21T10:38:40Z" finished-at="2019-01-21T10:38:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializationOfElements -->
+        <test-method status="FAIL" signature="invalidSignin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSignInPageObjects.TestByExcelSX@4520ebad]" name="invalidSignin" duration-ms="40208" started-at="2019-01-21T10:38:40Z" data-provider="DP" finished-at="2019-01-21T10:39:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[warrenbuffet@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tgb890]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your account name or password is incorrect. ]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"name","selector":"loginId"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LCVS2C2', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\MAHMUD~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61417}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 958a27a692b540a6b6d881f2294fcdf5
+*** Element info: {Using=name, value=loginId}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"name","selector":"loginId"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-LCVS2C2', ip: '192.168.150.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.45.615291 (ec3682e3c9061c..., userDataDir: C:\Users\MAHMUD~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61417}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 958a27a692b540a6b6d881f2294fcdf5
+*** Element info: {Using=name, value=loginId}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+at org.openqa.selenium.By$ByName.findElement(By.java:284)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy12.clear(Unknown Source)
+at base.CommonAPI.sendKeys(CommonAPI.java:439)
+at signInPageObjects.LoginPageLatest.login(LoginPageLatest.java:29)
+at testSignInPageObjects.TestByExcelSX.invalidSignin(TestByExcelSX.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Sending keys to email box]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidSignin -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testSignInPageObjects.TestByExcelSX@4520ebad]" name="afterEachTestMethod" is-config="true" duration-ms="1034" started-at="2019-01-21T10:39:20Z" finished-at="2019-01-21T10:39:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidSignin status=FAILURE method=TestByExcelSX.invalidSignin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testSignInPageObjects.TestByExcelSX@4520ebad] output=Sending keys to email box]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUP()[pri:0, instance:testSignInPageObjects.TestByExcelSX@4520ebad]" name="cleanUP" is-config="true" duration-ms="0" started-at="2019-01-21T10:39:21Z" finished-at="2019-01-21T10:39:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUP -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:testSignInPageObjects.TestByExcelSX@4520ebad]" name="generateReport" is-config="true" duration-ms="0" started-at="2019-01-21T10:39:21Z" finished-at="2019-01-21T10:39:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
-      </class> <!-- testSignInPageObjects.TestGoogleSheetLatest -->
+      </class> <!-- testSignInPageObjects.TestByExcelSX -->
     </test> <!-- Alibaba Home -->
   </suite> <!-- Alibaba Automation Script  -->
 </testng-results>

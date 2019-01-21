@@ -2,81 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="336bebae-93b0-4426-86f9-e559722a182b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Alibaba/.credentials/sheets-googleapis/StoredCredential" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/.credentials/sheets-googleapis/StoredCredential" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Alibaba/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/src/main/java/datasource/DatabaseOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/src/main/java/datasource/DatabaseOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/src/main/java/pages/HomePageItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/src/main/java/pages/HomePageItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/src/main/java/pages/LoginPageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/src/main/java/pages/LoginPageObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/src/main/java/pages/ProductPageItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/src/main/java/pages/ProductPageItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/src/main/java/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/src/main/java/pages/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/src/main/java/pages/SearchPageForSQLDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/src/main/java/pages/SearchPageForSQLDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/src/main/java/signInPageObjects/ByInputFromExls.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/src/main/java/signInPageObjects/ByInputFromExls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/src/main/java/signInPageObjects/GoogleSheetsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/src/main/java/signInPageObjects/GoogleSheetsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alibaba/data/testWithXlsxData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/data/testWithXlsxData.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Alibaba/src/main/java/signInPageObjects/LoginPageLatest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/src/main/java/signInPageObjects/LoginPageLatest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/src/test/java/brokenLinkTest/TestBrokenLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/src/test/java/brokenLinkTest/TestBrokenLink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/src/test/java/test/search/TestHomePageItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/src/test/java/test/search/TestHomePageItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/src/test/java/test/search/TestProductPageItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/src/test/java/test/search/TestProductPageItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/src/test/java/test/search/TestSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/src/test/java/test/search/TestSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/src/test/java/testSignInPageObjects/TestByInputFromExls.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/src/test/java/testSignInPageObjects/TestByInputFromExls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/src/test/java/testSignInPageObjects/TestGoogleSheetLatest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/src/test/java/testSignInPageObjects/TestGoogleSheetLatest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/src/test/java/testSignInPageObjects/TestGoogleSheetsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/src/test/java/testSignInPageObjects/TestGoogleSheetsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/src/test/java/testSignInPageObjects/TestLoginPageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/src/test/java/testSignInPageObjects/TestLoginPageObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alibaba/src/test/java/testSignInPageObjects/TestByExcelSX.java" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/src/test/java/testSignInPageObjects/TestByExcelSX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Alibaba/src/test/resources/AlibabaTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/src/test/resources/AlibabaTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/target/Alibaba-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/Alibaba-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/target/classes/META-INF/Alibaba.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/target/classes/datasource/DatabaseOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/classes/datasource/DatabaseOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/target/classes/pages/HomePageItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/classes/pages/HomePageItems.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/target/classes/pages/LoginPageObjects.class" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/classes/pages/LoginPageObjects.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/target/classes/pages/ProductPageItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/classes/pages/ProductPageItems.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/target/classes/pages/SearchPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/classes/pages/SearchPage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/target/classes/pages/SearchPage$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/classes/pages/SearchPage$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/target/classes/pages/SearchPage$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/classes/pages/SearchPage$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/target/classes/pages/SearchPage$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/classes/pages/SearchPage$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/target/classes/pages/SearchPage$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/classes/pages/SearchPage$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/target/classes/pages/SearchPage$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/classes/pages/SearchPage$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/target/classes/pages/SearchPage$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/classes/pages/SearchPage$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/target/classes/pages/SearchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/classes/pages/SearchPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/target/classes/pages/SearchPageForSQLDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/classes/pages/SearchPageForSQLDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/target/classes/signInPageObjects/ByInputFromExls.class" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/classes/signInPageObjects/ByInputFromExls.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/target/classes/signInPageObjects/GoogleSheetsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/classes/signInPageObjects/GoogleSheetsPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Alibaba/target/classes/signInPageObjects/LoginPageLatest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/classes/signInPageObjects/LoginPageLatest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/surefire-reports/TestSuite.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/surefire-reports/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/junitreports/TEST-TestHome.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/surefire-reports/junitreports/TEST-TestHome.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/junitreports/TEST-testSignInPageObjects.TestGoogleSheetLatest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/surefire-reports/junitreports/TEST-testSignInPageObjects.TestGoogleSheetLatest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/surefire-reports/old/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/surefire-reports/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Alibaba/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/surefire-reports/testng-results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Alibaba/target/test-classes/AlibabaTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/test-classes/AlibabaTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/target/test-classes/brokenLinkTest/TestBrokenLink.class" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/test-classes/brokenLinkTest/TestBrokenLink.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/target/test-classes/test/search/TestHomePageItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/test-classes/test/search/TestHomePageItems.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/target/test-classes/test/search/TestProductPageItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/test-classes/test/search/TestProductPageItems.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/target/test-classes/test/search/TestSearch$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/test-classes/test/search/TestSearch$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/target/test-classes/test/search/TestSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/test-classes/test/search/TestSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/target/test-classes/testSignInPageObjects/TestByInputFromExls.class" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/test-classes/testSignInPageObjects/TestByInputFromExls.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/target/test-classes/testSignInPageObjects/TestGoogleSheetLatest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/test-classes/testSignInPageObjects/TestGoogleSheetLatest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/target/test-classes/testSignInPageObjects/TestGoogleSheetsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/test-classes/testSignInPageObjects/TestGoogleSheetsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/target/test-classes/testSignInPageObjects/TestLoginPageObjects$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/test-classes/testSignInPageObjects/TestLoginPageObjects$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Alibaba/target/test-classes/testSignInPageObjects/TestLoginPageObjects.class" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/test-classes/testSignInPageObjects/TestLoginPageObjects.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alibaba/target/test-classes/testSignInPageObjects/TestByExcelSX.class" beforeDir="false" afterPath="$PROJECT_DIR$/Alibaba/target/test-classes/testSignInPageObjects/TestByExcelSX.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/databases/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/databases/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/databases/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/googleAPIs/GoogleSheetReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/googleAPIs/GoogleSheetReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/Generic-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/com/xlsx/api/MyDataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/com/xlsx/api/MyDataReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToMongoDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToMongoDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/ConnectToSqlDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/databases/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/databases/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/googleAPIs/GoogleSheetReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/googleAPIs/GoogleSheetReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/com/xlsx/api/MyDataReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/com/xlsx/api/MyDataReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RestAPI/target/test-classes/rest/AllDataAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/RestAPI/target/test-classes/rest/AllDataAPI.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -94,49 +43,43 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Alibaba/src/test/resources/AlibabaTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+            <state relative-caret-position="157">
+              <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RestAPI/pom.xml">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="37" column="96" selection-start-line="37" selection-start-column="96" selection-end-line="37" selection-end-column="96" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RestAPI/src/test/resources/RestAPITestRunner.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Alibaba/screenshots/test1 (01.13.2019-04">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="89" column="21" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
+            <state relative-caret-position="148">
+              <caret line="448" column="7" selection-start-line="448" selection-start-column="7" selection-end-line="448" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/RestAPI/src/test/java/rest/AllDataAPI.java">
+        <entry file="file://$PROJECT_DIR$/Alibaba/src/test/java/testSignInPageObjects/TestByExcelSX.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="37" column="131" selection-start-line="37" selection-start-column="131" selection-end-line="37" selection-end-column="131" />
+            <state relative-caret-position="90">
+              <caret line="48" column="56" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#580#581#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Alibaba/src/test/java/testSignInPageObjects/TestGoogleSheetLatest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="44" column="63" selection-start-line="44" selection-start-column="63" selection-end-line="44" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,28 +88,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/Alibaba/src/main/java/signInPageObjects/LoginPageLatest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="93" column="45" selection-start-line="93" selection-start-column="45" selection-end-line="93" selection-end-column="45" />
+            <state relative-caret-position="135">
+              <caret line="36" column="56" lean-forward="true" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Alibaba/pom.xml">
+        <entry file="file://$PROJECT_DIR$/Alibaba/src/test/java/testSignInPageObjects/TestByInputFromExls.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="33" column="62" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Alibaba/src/test/java/testSignInPageObjects/TestLoginPageObjects.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3328">
-              <caret line="215" column="5" selection-start-line="215" selection-start-column="5" selection-end-line="215" selection-end-column="5" />
+            <state relative-caret-position="100">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -212,7 +149,6 @@
         <option value="$PROJECT_DIR$/Alibaba/src/main/java/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java" />
         <option value="$PROJECT_DIR$/Alibaba/pom.xml" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/Alibaba/src/main/java/datasource/DatabaseOperation.java" />
         <option value="$PROJECT_DIR$/Alibaba/src/main/java/pages/HomePageItems.java" />
         <option value="$PROJECT_DIR$/Alibaba/src/main/java/pages/LoginPageObjects.java" />
@@ -221,17 +157,13 @@
         <option value="$PROJECT_DIR$/Alibaba/src/main/java/pages/SearchPageForSQLDB.java" />
         <option value="$PROJECT_DIR$/Alibaba/src/main/java/signInPageObjects/ByInputFromExls.java" />
         <option value="$PROJECT_DIR$/Alibaba/src/main/java/signInPageObjects/GoogleSheetsPage.java" />
-        <option value="$PROJECT_DIR$/Alibaba/src/main/java/signInPageObjects/LoginPageLatest.java" />
         <option value="$PROJECT_DIR$/Alibaba/src/test/java/brokenLinkTest/TestBrokenLink.java" />
         <option value="$PROJECT_DIR$/Alibaba/src/test/java/test/search/TestHomePageItems.java" />
         <option value="$PROJECT_DIR$/Alibaba/src/test/java/test/search/TestProductPageItems.java" />
         <option value="$PROJECT_DIR$/Alibaba/src/test/java/test/search/TestSearch.java" />
-        <option value="$PROJECT_DIR$/Alibaba/src/test/java/testSignInPageObjects/TestByExcelSX.java" />
         <option value="$PROJECT_DIR$/Alibaba/src/test/java/testSignInPageObjects/TestByInputFromExls.java" />
-        <option value="$PROJECT_DIR$/Alibaba/src/test/java/testSignInPageObjects/TestGoogleSheetLatest.java" />
         <option value="$PROJECT_DIR$/Alibaba/src/test/java/testSignInPageObjects/TestGoogleSheetsPage.java" />
         <option value="$PROJECT_DIR$/Alibaba/src/test/java/testSignInPageObjects/TestLoginPageObjects.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/com/xlsx/api/MyDataReader.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToMongoDB.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/databases/Student.java" />
@@ -240,9 +172,14 @@
         <option value="$PROJECT_DIR$/Generic/pom.xml" />
         <option value="$PROJECT_DIR$/RestAPI/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/Alibaba/src/test/resources/AlibabaTestRunner.xml" />
         <option value="$PROJECT_DIR$/RestAPI/src/test/resources/RestAPITestRunner.xml" />
         <option value="$PROJECT_DIR$/RestAPI/src/test/java/rest/AllDataAPI.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/com/xlsx/api/MyDataReader.java" />
+        <option value="$PROJECT_DIR$/Alibaba/src/test/resources/AlibabaTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Alibaba/src/test/java/testSignInPageObjects/TestGoogleSheetLatest.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/Alibaba/src/test/java/testSignInPageObjects/TestByExcelSX.java" />
+        <option value="$PROJECT_DIR$/Alibaba/src/main/java/signInPageObjects/LoginPageLatest.java" />
       </list>
     </option>
   </component>
@@ -263,9 +200,10 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="5" />
+    <option name="y" value="7" />
+    <option name="width" value="1323" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -300,25 +238,70 @@
             <path>
               <item name="AlibabaOne" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlibabaOne" type="462c0819:PsiDirectoryNode" />
-              <item name="RestAPI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlibabaOne" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlibabaOne" type="462c0819:PsiDirectoryNode" />
-              <item name="RestAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="Alibaba" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AlibabaOne" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlibabaOne" type="462c0819:PsiDirectoryNode" />
-              <item name="RestAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="Alibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlibabaOne" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlibabaOne" type="462c0819:PsiDirectoryNode" />
+              <item name="Alibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlibabaOne" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlibabaOne" type="462c0819:PsiDirectoryNode" />
+              <item name="Alibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlibabaOne" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlibabaOne" type="462c0819:PsiDirectoryNode" />
+              <item name="Alibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="signInPageObjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlibabaOne" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlibabaOne" type="462c0819:PsiDirectoryNode" />
+              <item name="Alibaba" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AlibabaOne" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlibabaOne" type="462c0819:PsiDirectoryNode" />
-              <item name="RestAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="Alibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlibabaOne" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlibabaOne" type="462c0819:PsiDirectoryNode" />
+              <item name="Alibaba" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testSignInPageObjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlibabaOne" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlibabaOne" type="462c0819:PsiDirectoryNode" />
+              <item name="Alibaba" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -332,7 +315,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548053360749" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548072217553" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -371,7 +354,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Mahmud Khan/IdeaProjects/AlibabaOne/RestAPI/src/test/resources/RestAPITestRunner.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/Mahmud Khan/IdeaProjects/AlibabaOne/Alibaba/src/test/resources/AlibabaTestRunner.xml">
     <configuration name="DatabaseOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="datasource.DatabaseOperation" />
       <module name="Alibaba" />
@@ -414,10 +397,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestByExcelSX.invalidSignin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Alibaba" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testSignInPageObjects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testSignInPageObjects" />
+      <option name="MAIN_CLASS_NAME" value="testSignInPageObjects.TestByExcelSX" />
+      <option name="METHOD_NAME" value="invalidSignin" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -426,11 +417,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/Mahmud Khan/IdeaProjects/AlibabaOne/RestAPI/src/test/resources/RestAPITestRunner.xml" />
         <item itemvalue="TestNG.C:/Users/Mahmud Khan/IdeaProjects/AlibabaOne/Alibaba/src/test/resources/AlibabaTestRunner.xml" />
+        <item itemvalue="TestNG.TestByExcelSX.invalidSignin" />
+        <item itemvalue="TestNG.C:/Users/Mahmud Khan/IdeaProjects/AlibabaOne/RestAPI/src/test/resources/RestAPITestRunner.xml" />
         <item itemvalue="TestNG.C:/Users/Mahmud Khan/IdeaProjects/AlibabaOne/Alibaba/target/test-classes/AlibabaTestRunner.xml" />
         <item itemvalue="Application.DatabaseOperation" />
-        <item itemvalue="TestNG.&lt;default&gt;" />
       </list>
     </recent_temporary>
   </component>
@@ -448,41 +439,69 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Mahmud_Khan_IdeaProjects_AlibabaOne_RestAPI_src_test_resources_RestAPITestRunner_xml - 2019.01.21 at 00h 17m 52s.xml">
-      <configuration name="C:/Users/Mahmud Khan/IdeaProjects/AlibabaOne/RestAPI/src/test/resources/RestAPITestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Mahmud_Khan_IdeaProjects_AlibabaOne_RestAPI_src_test_resources_RestAPITestRunner_xml - 2019.01.21 at 00h 24m 30s.xml">
-      <configuration name="C:/Users/Mahmud Khan/IdeaProjects/AlibabaOne/RestAPI/src/test/resources/RestAPITestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Mahmud_Khan_IdeaProjects_AlibabaOne_Alibaba_src_test_resources_AlibabaTestRunner_xml - 2019.01.21 at 00h 26m 05s.xml">
+    <history-entry file="C__Users_Mahmud_Khan_IdeaProjects_AlibabaOne_Alibaba_src_test_resources_AlibabaTestRunner_xml - 2019.01.21 at 06h 06m 29s.xml">
       <configuration name="C:/Users/Mahmud Khan/IdeaProjects/AlibabaOne/Alibaba/src/test/resources/AlibabaTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Mahmud_Khan_IdeaProjects_AlibabaOne_RestAPI_src_test_resources_RestAPITestRunner_xml - 2019.01.21 at 00h 38m 27s.xml">
-      <configuration name="C:/Users/Mahmud Khan/IdeaProjects/AlibabaOne/RestAPI/src/test/resources/RestAPITestRunner.xml" configurationId="TestNG" />
+    <history-entry file="TestByExcelSX_invalidSignin - 2019.01.21 at 06h 06m 55s.xml">
+      <configuration name="TestByExcelSX.invalidSignin" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Mahmud_Khan_IdeaProjects_AlibabaOne_RestAPI_src_test_resources_RestAPITestRunner_xml - 2019.01.21 at 00h 41m 52s.xml">
-      <configuration name="C:/Users/Mahmud Khan/IdeaProjects/AlibabaOne/RestAPI/src/test/resources/RestAPITestRunner.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Mahmud_Khan_IdeaProjects_AlibabaOne_Alibaba_src_test_resources_AlibabaTestRunner_xml - 2019.01.21 at 00h 46m 43s.xml">
+    <history-entry file="C__Users_Mahmud_Khan_IdeaProjects_AlibabaOne_Alibaba_src_test_resources_AlibabaTestRunner_xml - 2019.01.21 at 06h 19m 38s.xml">
       <configuration name="C:/Users/Mahmud Khan/IdeaProjects/AlibabaOne/Alibaba/src/test/resources/AlibabaTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Mahmud_Khan_IdeaProjects_AlibabaOne_RestAPI_src_test_resources_RestAPITestRunner_xml - 2019.01.21 at 00h 48m 00s.xml">
-      <configuration name="C:/Users/Mahmud Khan/IdeaProjects/AlibabaOne/RestAPI/src/test/resources/RestAPITestRunner.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_Mahmud_Khan_IdeaProjects_AlibabaOne_Alibaba_src_test_resources_AlibabaTestRunner_xml - 2019.01.21 at 06h 29m 34s.xml">
+      <configuration name="C:/Users/Mahmud Khan/IdeaProjects/AlibabaOne/Alibaba/src/test/resources/AlibabaTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Mahmud_Khan_IdeaProjects_AlibabaOne_RestAPI_src_test_resources_RestAPITestRunner_xml - 2019.01.21 at 01h 10m 43s.xml">
-      <configuration name="C:/Users/Mahmud Khan/IdeaProjects/AlibabaOne/RestAPI/src/test/resources/RestAPITestRunner.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_Mahmud_Khan_IdeaProjects_AlibabaOne_Alibaba_src_test_resources_AlibabaTestRunner_xml - 2019.01.21 at 06h 32m 40s.xml">
+      <configuration name="C:/Users/Mahmud Khan/IdeaProjects/AlibabaOne/Alibaba/src/test/resources/AlibabaTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Mahmud_Khan_IdeaProjects_AlibabaOne_RestAPI_src_test_resources_RestAPITestRunner_xml - 2019.01.21 at 01h 12m 05s.xml">
-      <configuration name="C:/Users/Mahmud Khan/IdeaProjects/AlibabaOne/RestAPI/src/test/resources/RestAPITestRunner.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_Mahmud_Khan_IdeaProjects_AlibabaOne_Alibaba_src_test_resources_AlibabaTestRunner_xml - 2019.01.21 at 06h 36m 50s.xml">
+      <configuration name="C:/Users/Mahmud Khan/IdeaProjects/AlibabaOne/Alibaba/src/test/resources/AlibabaTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Mahmud_Khan_IdeaProjects_AlibabaOne_RestAPI_src_test_resources_RestAPITestRunner_xml - 2019.01.21 at 01h 13m 42s.xml">
-      <configuration name="C:/Users/Mahmud Khan/IdeaProjects/AlibabaOne/RestAPI/src/test/resources/RestAPITestRunner.xml" configurationId="TestNG" />
+    <history-entry file="C__Users_Mahmud_Khan_IdeaProjects_AlibabaOne_Alibaba_src_test_resources_AlibabaTestRunner_xml - 2019.01.21 at 06h 37m 29s.xml">
+      <configuration name="C:/Users/Mahmud Khan/IdeaProjects/AlibabaOne/Alibaba/src/test/resources/AlibabaTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Mahmud_Khan_IdeaProjects_AlibabaOne_Alibaba_src_test_resources_AlibabaTestRunner_xml - 2019.01.21 at 06h 40m 28s.xml">
+      <configuration name="C:/Users/Mahmud Khan/IdeaProjects/AlibabaOne/Alibaba/src/test/resources/AlibabaTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Mahmud_Khan_IdeaProjects_AlibabaOne_Alibaba_src_test_resources_AlibabaTestRunner_xml - 2019.01.21 at 06h 45m 45s.xml">
+      <configuration name="C:/Users/Mahmud Khan/IdeaProjects/AlibabaOne/Alibaba/src/test/resources/AlibabaTestRunner.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Mahmud_Khan_IdeaProjects_AlibabaOne_Alibaba_src_test_resources_AlibabaTestRunner_xml - 2019.01.21 at 06h 51m 10s.xml">
+      <configuration name="C:/Users/Mahmud Khan/IdeaProjects/AlibabaOne/Alibaba/src/test/resources/AlibabaTestRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24295302" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.509915" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.55382437" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.30134228" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Mongo Explorer" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19731544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
@@ -492,8 +511,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3654391" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3654391" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -510,7 +529,7 @@
       <window_info anchor="right" id="Mongo Explorer" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -533,119 +552,33 @@
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/RestAPI/src/test/java/rest/AllDataAPI.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Alibaba/src/test/java/testSignInPageObjects/TestByExcelSX.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java</url>
+          <line>438</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="this.cachedElement" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/com/google/common/collect/Hashing.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/com/google/common/collect/AbstractMapEntry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/com/google/common/collect/ImmutableEntry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/com/google/common/collect/CollectPreconditions.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/com/google/common/collect/ImmutableMapEntry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/com/google/common/collect/RegularImmutableMap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-          <folding>
-            <element signature="e#1460#1461#0" expanded="true" />
-            <element signature="e#1522#1523#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar!/com/google/common/collect/ImmutableMap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="317" selection-start-line="317" selection-end-line="317" />
-          <folding>
-            <element signature="e#10980#10981#0" expanded="true" />
-            <element signature="e#11024#11025#0" expanded="true" />
-            <element signature="e#15184#15185#0" expanded="true" />
-            <element signature="e#15247#15248#0" expanded="true" />
-            <element signature="e#17867#17868#0" expanded="true" />
-            <element signature="e#17931#17932#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/secret.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/resources/client_secret.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AlibabaOne.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="41" lean-forward="true" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Alibaba/src/main/java/datasource/DatabaseOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Alibaba/src/main/java/pages/HomePageItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-483">
-          <caret line="236" column="67" selection-start-line="236" selection-start-column="67" selection-end-line="236" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Alibaba/src/main/java/pages/LoginPageObjects.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
@@ -700,18 +633,6 @@
             <element signature="e#1978#1979#0" expanded="true" />
             <element signature="e#2046#2047#0" expanded="true" />
             <element signature="e#2115#2116#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Alibaba/src/main/java/signInPageObjects/ByInputFromExls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -773,40 +694,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Alibaba/src/test/java/testSignInPageObjects/TestByExcelSX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Alibaba/src/test/java/testSignInPageObjects/TestByInputFromExls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="30" column="73" selection-start-line="30" selection-start-column="73" selection-end-line="30" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Alibaba/src/test/java/testSignInPageObjects/TestGoogleSheetsPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-32">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/com/xlsx/api/MyDataReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -864,27 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/utility/DataReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="868">
@@ -912,26 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Alibaba/src/test/java/testSignInPageObjects/TestGoogleSheetLatest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="47" column="60" selection-start-line="47" selection-start-column="60" selection-end-line="47" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Alibaba/src/main/java/signInPageObjects/LoginPageLatest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Alibaba/src/test/java/testSignInPageObjects/TestLoginPageObjects.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3328">
@@ -952,16 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="438" selection-start-line="438" selection-end-line="438" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Alibaba/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
@@ -976,24 +816,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Alibaba/src/test/resources/AlibabaTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="93" column="45" selection-start-line="93" selection-start-column="45" selection-end-line="93" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RestAPI/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="37" column="96" selection-start-line="37" selection-start-column="96" selection-end-line="37" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Alibaba/screenshots/test1 (01.13.2019-04">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.0/commons-lang3-3.0.jar!/org/apache/commons/lang3/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="214" selection-start-line="214" selection-end-line="214" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.0.3/rest-assured-3.0.3.jar!/io/restassured/internal/log/LogRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.0.3/rest-assured-3.0.3.jar!/io/restassured/http/Headers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured-common/3.0.3/rest-assured-common-3.0.3.jar!/io/restassured/internal/assertion/AssertParameter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.0.3/rest-assured-3.0.3.jar!/io/restassured/http/Cookies.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.0.3/rest-assured-3.0.3.jar!/io/restassured/internal/MultiValueEntity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.0.3/rest-assured-3.0.3.jar!/io/restassured/internal/RequestSpecificationImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1004,15 +882,179 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Alibaba/screenshots/test1 (01.13.2019-04">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.0.3/rest-assured-3.0.3.jar!/io/restassured/internal/ResponseParserRegistrar.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.0.3/rest-assured-3.0.3.jar!/io/restassured/RestAssured.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="466" selection-start-line="466" selection-end-line="466" />
+          <folding>
+            <element signature="e#6176#6177#0" expanded="true" />
+            <element signature="e#6250#6251#0" expanded="true" />
+            <element signature="e#22944#22945#0" expanded="true" />
+            <element signature="e#23016#23017#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RestAPI/src/test/java/rest/AllDataAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="37" column="131" selection-start-line="37" selection-start-column="131" selection-end-line="37" selection-end-column="131" />
+        <state relative-caret-position="228">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="20" column="87" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="733">
+          <caret line="93" column="45" selection-start-line="93" selection-start-column="45" selection-end-line="93" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/com/xlsx/api/MyDataReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#763#788#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Alibaba/src/test/resources/AlibabaTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Alibaba/src/test/java/testSignInPageObjects/TestByInputFromExls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/pagefactory/DefaultElementLocator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/pagefactory/internal/LocatingElementHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Alibaba/src/test/java/testSignInPageObjects/TestGoogleSheetLatest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="44" column="63" selection-start-line="44" selection-start-column="63" selection-end-line="44" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Alibaba/src/main/java/signInPageObjects/ByInputFromExls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="22" column="53" lean-forward="true" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/TestResult.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+          <folding>
+            <element signature="e#3610#3611#0" expanded="true" />
+            <element signature="e#3646#3647#0" expanded="true" />
+            <element signature="e#4120#4121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/internal/Invoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="453" selection-start-line="453" selection-end-line="453" />
+          <folding>
+            <element signature="e#56792#56793#0" expanded="true" />
+            <element signature="e#56836#56837#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="448" column="7" selection-start-line="448" selection-start-column="7" selection-end-line="448" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Alibaba/src/main/java/signInPageObjects/LoginPageLatest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="36" column="56" lean-forward="true" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Alibaba/src/test/java/testSignInPageObjects/TestByExcelSX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="48" column="56" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
           </folding>
         </state>
       </provider>

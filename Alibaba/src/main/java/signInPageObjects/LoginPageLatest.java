@@ -11,7 +11,7 @@ public class LoginPageLatest extends CommonAPI {
     private WebDriver driver ;
     @FindBy(partialLinkText = "Sign In")
     public static WebElement signInButton;
-    @FindBy(how = XPATH, using = ".//*[@id='fm-login-id']")
+    @FindBy(how = XPATH, using = "//*[@id=\"fm-login-id\"]")
     public static WebElement account;
     @FindBy(how = ID, using = "fm-login-password")
     public static WebElement passwords;
@@ -32,7 +32,9 @@ public class LoginPageLatest extends CommonAPI {
         return new LoginPageLatest();
     }
     public String getErrorMessage(){
-        String actualText = getText(signInErrorMesage,"signInErrorMesage");
+        TestLogger.log(signInErrorMesage.getText());
+        //System.out.println(signInErrorMesage.getText());
+        String actualText = signInErrorMesage.getText();
         return actualText;
     }
 }

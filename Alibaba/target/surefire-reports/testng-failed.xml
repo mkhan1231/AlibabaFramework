@@ -10,18 +10,18 @@
   <parameter name="url" value="https://www.alibaba.com"/>
   <test thread-count="5" verbose="0" name="Alibaba Home(failed)">
     <classes>
-      <class name="testSignInPageObjects.TestGoogleSheetLatest">
+      <class name="testSignInPageObjects.TestByExcelSX">
         <methods>
+          <include name="invalidSignin" invocation-numbers="0 1 2"/>
+          <include name="initializationOfElements"/>
           <include name="afterEachTestMethod"/>
-          <include name="invalidSigninByGoogleSheetApi"/>
           <include name="generateReport"/>
           <include name="extentSetup"/>
           <include name="setUp"/>
-          <include name="initializationOfElements"/>
           <include name="startExtent"/>
           <include name="cleanUP"/>
         </methods>
-      </class> <!-- testSignInPageObjects.TestGoogleSheetLatest -->
+      </class> <!-- testSignInPageObjects.TestByExcelSX -->
     </classes>
   </test> <!-- Alibaba Home(failed) -->
 </suite> <!-- Failed suite [Alibaba Automation Script ] -->

@@ -3,15 +3,23 @@ package testSignInPageObjects;
 import base.CommonAPI;
 import com.xlsx.api.MyDataReader;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import pages.HomePageItems;
+import signInPageObjects.ByInputFromExls;
 import signInPageObjects.LoginPageLatest;
 import java.io.File;
+import java.io.FileNotFoundException;
+
 
 public class TestByExcelSX extends CommonAPI {
     LoginPageLatest objLoginPage ;
+    ByInputFromExls objByInput;
+    HomePageItems objOfHomePage;
 
     @BeforeMethod
     public void initializationOfElements() {
@@ -19,21 +27,27 @@ public class TestByExcelSX extends CommonAPI {
     }
     //Read Data from XLSX file
     @DataProvider(name="DP")
-    public Object[][] getTestData() throws Exception{
+    public Object[][] getTestData() throws FileNotFoundException, Exception {
         //File filepath = new File(System.getProperty("user.dir") +  "/data/testWithXlsxData");
         File filepath = new File(/*System.getProperty(*/"C:\\Users\\Mahmud Khan\\IdeaProjects\\AlibabaOne\\Alibaba\\data\\testWithXlsxData.xlsx");
+
+
         MyDataReader dr = new MyDataReader();
         //Show me where is data file
         dr.setExcelFile(filepath.getAbsolutePath());
-        String[][] data = dr.getExcelSheetData("Sheet1");
+        String[][] data = dr.getExcelSheetData("Sheet2");
         return data;
     }
     @Test(dataProvider = "DP")
-    public  void invalidSignin(String email, String password, String expectedErrorMessage){
+    public  void invalidSignin (String email, String password, String expectedErrorMessage) throws InterruptedException{
         objLoginPage.getLogInPageLatest();
+        (new WebDriverWait(driver, 5)).until(ExpectedConditions.frameToBeAvailableAndSwitchToIt("alibaba-login-box"));
+        //objByInput.switchToSignInForm();
+        //sleepFor(3);
         objLoginPage.login(email, password);
         String expectedText = expectedErrorMessage;
-        String actulText = objLoginPage.getErrorMessage();
-        //Assert.assertEquals(actulText, expectedText);
+        String actualText = objLoginPage.getErrorMessage();
+        //Assert.assertEquals(actualText, expectedText);
+
     }
 }

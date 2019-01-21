@@ -441,12 +441,12 @@ public class CommonAPI {
         webElement.sendKeys(keys);
         TestLogger.log("Keys Sent to " + webElementName);
     }
-    public static String getText(WebElement webElement, String webElementName){
+    /*public static String getText(WebElement webElement, String webElementName){
         TestLogger.log("Getting Text from " + webElementName);
         String actualText =  webElement.getText();
         TestLogger.log("Actual text: " + actualText);
         return actualText;
-    }
+    }*/
     public static void click(WebElement webElement, String webElementName){
         TestLogger.log("Click " + webElementName );
         webElement.click();
