@@ -42,16 +42,29 @@ public class Purchase extends CommonAPI {
     @FindBy(xpath = "//div[@class='ui2-feedback-title']")
     public static WebElement queryConfirmation;
 
-    public void orderLifeCycle() {
+    public String searchAProduct(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         searchInputWebElement.clear();
         searchInputWebElement.sendKeys("Laptop");
         submitButtonWebElement.click();
         implicitWait(driver, 5);
+        String title = driver.getTitle();
+        System.out.println("Laptop Search Page Titel: " + title);
+        return title;
+    }
+    public String goToSearchedProduct(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         itemLaptop.click();
         switchWindow(driver);
+        String title = driver.getTitle();
+        System.out.println("Specific Laptop Search Page Titel: " + title);
+        return title;
+    }
+    public String initiateSpecificOrder(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         initiateOrder.click();
         switchWindow(driver);
-        implicitWait(driver, 5);
+        implicitWait(driver, 15);
         confirmQuantity.clear();
         confirmQuantity.sendKeys("100");
         myPrice.clear();
@@ -64,6 +77,12 @@ public class Purchase extends CommonAPI {
         shippingModeDropdown.click();
         shippingModeSelect.click();
         startingOrder.click();
+        String title = driver.getTitle();
+        System.out.println("Specific Laptop Search Page Titel: " + title);
+        return title;
+    }
+    public String loginToOrder(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         implicitWait(driver, 5);
         (new WebDriverWait(driver, 5)).until(ExpectedConditions.frameToBeAvailableAndSwitchToIt("alibaba-login-box"));
         account.clear();
@@ -71,12 +90,22 @@ public class Purchase extends CommonAPI {
         password.clear();
         password.sendKeys("qazplm123");
         loginSubmit.click();
-        //System.out.println(queryConfirmation.getText());
+        String title = driver.getTitle();
+        System.out.println("Order Confirmation Page Titel: " + title);
+        return title;
     }
-
     public String getSuccessfulOrderMessage(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         String expected =queryConfirmation.getText();
+        System.out.println(expected);
         return expected;
+    }
+    public void orderLifeCycle() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        searchAProduct();
+        goToSearchedProduct();
+        initiateSpecificOrder();
+        loginToOrder();
     }
 }
 

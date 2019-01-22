@@ -120,7 +120,7 @@ public class TestHomePageItems extends HomePageItems {
         String expected = "(1299, 542)";
         // Assert.assertTrue(actual.contains(expected));
     }
-   /* ////T3ALI_HP_TC14 Quotes request
+    /*//T3ALI_HP_TC14 Quotes request
     @Test(priority = 16, enabled = true)
     public void testQuotesRequestForm() throws InterruptedException {
         objOfHomePage.quotesRequestForm();
