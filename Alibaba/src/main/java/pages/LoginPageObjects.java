@@ -216,7 +216,7 @@ public class LoginPageObjects extends CommonAPI {
     // Send email and password for Google Account
     public String sendGoogleIdAndPassword() {
         System.out.println(driver.getTitle());
-        googleEmailInputBox.sendKeys("testdata.islam@gmail.com" + Keys.ENTER);
+        googleEmailInputBox.sendKeys("testdata.khan@gmail.com" + Keys.ENTER);
         googlePasswordInputBox.sendKeys("testdat" + Keys.ENTER);
         String text = gmailErrorMessage.getText();
         return text;

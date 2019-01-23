@@ -62,7 +62,7 @@ public class ByInputFromExls extends CommonAPI {
     }
     public String[] getDataFromSignInKeyword(String fileName) throws IOException {
         String path = "../AliBaba/data/" + fileName;
-        String[] output = dtr.colReader(path, 2); //col 2 = email
+        String[] output = dtr.colReader(path, 2); //col 2 = email for one file  & col 2= keywords for another file
         return output;
     }
 }
