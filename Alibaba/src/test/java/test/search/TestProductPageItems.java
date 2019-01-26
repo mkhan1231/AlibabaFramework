@@ -19,7 +19,6 @@ public class TestProductPageItems extends ProductPageItems {
     @Test(priority = 1, enabled =false)
     public void testCategories() throws InterruptedException {
         objOfHomePage.categories();
-        ProductPageItems productsPage = PageFactory.initElements(driver, ProductPageItems.class);
         objOfProductsPage.toolsSearch();
     }
 }

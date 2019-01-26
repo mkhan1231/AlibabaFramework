@@ -75,16 +75,6 @@ public class LoginPageObjects extends CommonAPI {
     public void switchToSignInForm() {
         driver.switchTo().frame("alibaba-login-box");
     }
-    public void signInUsingDataProvider(String email, String passCode, String message) throws InterruptedException {
-        // account.sendKeys(email);
-        SendKeys(account,email, "account");
-        password.sendKeys(passCode);
-        Thread.sleep(3000);
-        loginSubmit.click();
-        String errorMessage = signInErrorMesage.getText();
-        TestLogger.log("Error Message: "+errorMessage);
-        // Assert.assertEquals(errorMessage.contains(message), true);
-    }
     //T3ALI_SI_TC01,
     // Sign in with invalid id and email
     public String signIn() throws InterruptedException {
@@ -126,7 +116,6 @@ public class LoginPageObjects extends CommonAPI {
     public boolean signInByFacebookIconStatus() {
         boolean bl = signInByFacebookIcon.isEnabled();
         return bl;
-        // Assert.assertEquals(bl, true);
     }
     //T3ALI_SI_TC07, Sign in by Google icon Status
     public boolean signInByGoogleIconStatus() {
@@ -195,7 +184,6 @@ public class LoginPageObjects extends CommonAPI {
         System.out.println("Sign In Facebook Actual Error Message: " + actualErrorMessage);
         return actualErrorMessage;
     }
-
     //T3ALI_SI_TC13, Sign In By Valid google account
     public void signInByValidGooleAcount() {
         try {

@@ -1,25 +1,23 @@
 package test.search;
 
-import base.CommonAPI;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.HomePageItems;
+import pages.LoginPageObjects;
 import java.io.IOException;
 
 
 public class TestHomePageItems extends HomePageItems {
 
     HomePageItems objOfHomePage;
-    //SignInPage objOfSignInPage;
-    //ProductsPage objOfProductsPage;
+    LoginPageObjects objOfSignInPage;
 
     @BeforeMethod
     public void initializationOfElements() {
         objOfHomePage = PageFactory.initElements(driver, HomePageItems.class);
-        //objOfSignInPage = PageFactory.initElements(driver, SignInPage.class);
-        //objOfProductsPage = PageFactory.initElements(driver, ProductsPage.class);
+        objOfSignInPage = PageFactory.initElements(driver, LoginPageObjects.class);
     }
     // T3ALI_HP_TC01 Verify Home Page URL
     @Test(priority = 1, enabled = true)
@@ -47,7 +45,7 @@ public class TestHomePageItems extends HomePageItems {
     public void testSourcingSolutions() {
         String actual = objOfHomePage.sourcingSolutions();
         String expected = "Alibaba selection";
-        Assert.assertTrue(expected.contains(expected));
+        Assert.assertTrue(actual.contains(expected));
     }
     //T3ALI_HP_TC05 Verify by Home Page Links Status
     @Test(priority = 5, enabled = true)
@@ -59,7 +57,7 @@ public class TestHomePageItems extends HomePageItems {
     @Test(priority = 6, enabled = true)
     public void testOptionsOfCategories() {
         String actual = objOfHomePage.categories();
-        String expected = "Hand-Tools";
+        String expected = "https://www.alibaba.com/catalog/hand-tools_cid142003?spm=a2700.8293689.scGlobalHomeHeader.49.2ce214beFFJZTH";
         Assert.assertTrue(actual.contains(expected));
     }
     @Test (priority = 7, enabled = true)
@@ -118,9 +116,8 @@ public class TestHomePageItems extends HomePageItems {
     public void testTopButtonVerification() throws InterruptedException {
         String actual = objOfHomePage.topButtonVerification();
         String expected = "(1299, 542)";
-        // Assert.assertTrue(actual.contains(expected));
     }
-    /*//T3ALI_HP_TC14 Quotes request
+    //T3ALI_HP_TC14 Quotes request
     @Test(priority = 16, enabled = true)
     public void testQuotesRequestForm() throws InterruptedException {
         objOfHomePage.quotesRequestForm();
@@ -130,11 +127,5 @@ public class TestHomePageItems extends HomePageItems {
         String actual = objOfSignInPage.sendGoogleIdAndPassword();
         sleepFor(40);
         String expected = "Wrong password";
-        //Assert.assertTrue(actual.contains(expected));
-
     }
-    @Test
-    public void testNumberOfLinksInHomePage() throws IOException {
-        objOfHomePage.findNumberOfLinksInHomePage();
-    }*/
 }

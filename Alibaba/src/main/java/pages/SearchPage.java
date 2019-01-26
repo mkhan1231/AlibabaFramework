@@ -16,6 +16,7 @@ public class SearchPage {
     public static WebElement searchInputWebElement;
     @FindBy(how = How.CSS, using =".ui-searchbar-button-icon")
     public static WebElement submitButtonWebElement;
+
     public WebElement getSearchInputWebElement() {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         return searchInputWebElement;

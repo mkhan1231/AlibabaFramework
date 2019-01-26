@@ -85,8 +85,8 @@ public class CommonAPI {
     public static WebDriver driver = null;
     private String browserstack_username = "mahmud22";
     private String browserstack_accesskey = "Fk8ifaGTGsAVWzeeWHpN";
-    private String saucelabs_username = "";
-    private String saucelabs_accesskey = "";
+    private String saucelabs_username = "mahmudkhan1231";
+    private String saucelabs_accesskey = "a5c27d80-54d0-4250-bcbe-6a2a9f947293";
 
     @Parameters({"useCloudEnv", "cloudEnvName", "os", "os_version", "browserName", "browserVersion", "url"})
     @BeforeMethod
@@ -398,7 +398,6 @@ public class CommonAPI {
     public void goBackToHomeWindow(){
         driver.switchTo().defaultContent();
     }
-
     //Taking Screen shots
     public void takeScreenShot()throws IOException {
         File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);

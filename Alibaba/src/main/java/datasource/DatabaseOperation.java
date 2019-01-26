@@ -1,12 +1,10 @@
 package datasource;
-import base.CommonAPI;
+
 import databases.ConnectToSqlDB;
-import reporting.TestLogger;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-import static base.CommonAPI.convertToString;
 
 public class DatabaseOperation {
     static ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
@@ -27,7 +25,6 @@ public class DatabaseOperation {
         itemsList.add("macAir");
         return itemsList;
     }
-
     public List<String> getItemsListFromDB()throws Exception, IOException, SQLException, ClassNotFoundException {
         List<String> list = new ArrayList<>();
         list = connectToSqlDB.readDataBase("AliBabaSearchItems", "products");

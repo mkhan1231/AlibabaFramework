@@ -12,7 +12,7 @@ import java.sql.SQLException;
 
 public class TestSearch extends CommonAPI {
 
-    //@Test
+    @Test
     public void searchItems() throws IOException {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         SearchPage searchPage = PageFactory.initElements(driver, SearchPage.class);

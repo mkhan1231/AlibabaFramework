@@ -13,13 +13,11 @@ public class TestLoginPageObjects  extends LoginPageObjects {
 
     HomePageItems objOfHomePage;
     LoginPageObjects objOfSignInPage;
-    //ProductsPage objOfProductsPage;
 
     @BeforeMethod
     public void initializationOfElements() {
         objOfHomePage = PageFactory.initElements(driver, HomePageItems.class);
         objOfSignInPage = PageFactory.initElements(driver, LoginPageObjects.class);
-        //objOfProductsPage = PageFactory.initElements(driver, ProductsPage.class);
     }
     // T3ALI_SI_TC01 Sign in with invalid id and invalid password
     @Test(priority = 1, enabled = true)

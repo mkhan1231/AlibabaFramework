@@ -15,8 +15,8 @@ public class AllDataAPI {
         String body = response.getBody().print();
         Assert.assertEquals(statusLine, "HTTP/1.1 200 OK");
         Assert.assertEquals(statusCode, 200);
+        System.out.println(statusCode);
     }
-
     @Test
     public void badCallAllEmployeeResources() {
         Response response = null;
@@ -26,9 +26,9 @@ public class AllDataAPI {
             statusCode = response.getStatusCode();
         } catch (Exception ex) {
         }
+        System.out.println(statusCode);
         Assert.assertEquals(statusCode, 401);
     }
-
     @Test
     public void serverErrorCallAllEmployeeResources() {
         Response response = null;
@@ -38,6 +38,7 @@ public class AllDataAPI {
             statusCode = response.getStatusCode();
         } catch (Exception ex) {
         }
+        System.out.println(statusCode);
         Assert.assertEquals(statusCode, 200);
     }
 }

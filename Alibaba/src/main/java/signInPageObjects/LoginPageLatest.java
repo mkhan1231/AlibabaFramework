@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import reporting.TestLogger;
 import static org.openqa.selenium.support.How.*;
+
 public class LoginPageLatest extends CommonAPI {
     private WebDriver driver ;
     @FindBy(partialLinkText = "Sign In")

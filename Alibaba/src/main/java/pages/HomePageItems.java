@@ -1,6 +1,5 @@
 package pages;
 
-
 import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -15,28 +14,19 @@ import java.util.List;
 
 public class HomePageItems extends CommonAPI {
 
-   /*@FindBy(how = How.XPATH, using ="//a[contains(text(),'Help Center')]")
-   public static WebElement checkHelpCenter;
-    public WebElement getCheckHelpCenter() {
-        return checkHelpCenter;
-    }
-    public void checkHelpCenterLink(){
-        getCheckHelpCenter().click();
-    }*/
-
     @FindBy(name = "SearchText")
     public static WebElement searchBox;
     @FindBy(xpath = "//div[@id=\"J_SC_header\"]//form/div[1]/div/div/span[1]")
     public static WebElement productSearchOption;
-    @FindBy(xpath = "//div[@id=\"J_SC_header\"]//form/div[1]/div/div/span[1]")
+    @FindBy(xpath = "//*[@id=\"J_SC_header\"]/header/div[2]/div[2]/div/div/form/div[1]/div/ul/li[2]/a")
     public static WebElement suppliersSearchOption;
     @FindBy(xpath = "//div[@id=\"J_SC_header\"]//form/div[1]/div/div/span[2]")
     public static WebElement quotesSearchOptin;
-    @FindBy(xpath = "//*[@id=\"J_SC_header\"]//input[4]")
+    @FindBy(xpath = "//*[@id=\"J_SC_header\"]/header/div[2]/div[2]/div/div/form/i[1]")
     public static WebElement searchButton;
-    @FindBy(how =How.CLASS_NAME,using = "J-hd-beaconnav-title sc-hd-ms-title")
+    @FindBy(how =How.CLASS_NAME,using = "//*[@id=\"J_SC_header\"]/header/div[1]/div[4]/ul/li[1]/span")
     public static WebElement sourcingSolutions;
-    @FindBy(partialLinkText = "Top Selected")
+    @FindBy(xpath = "//a[@title='Top Selected Suppliers']")
     public static WebElement topSelectedSuppliers;
     @FindBy(partialLinkText = "Sign In")
     public static WebElement signInButton;
@@ -50,7 +40,7 @@ public class HomePageItems extends CommonAPI {
     public static WebElement categories;
     @FindBy(partialLinkText = "Machinery")
     private WebElement machinery;
-    @FindBy(partialLinkText = "Hand Tools")
+    @FindBy(xpath = "//a[contains(text(),'Hand Tools')]")
     private WebElement handTools;
     @FindBy(xpath = "//a[@class='more' and @href='javascript:;']")
     private WebElement seeMore;
@@ -101,8 +91,10 @@ public class HomePageItems extends CommonAPI {
     @FindBy(xpath = "//div[@id='thirdPartLogin']/a[2]")
     public static WebElement googleIconOnPoPUpSignInWindow;
     @FindBy(tagName = "a")
-
     public List<WebElement> anchorTag = new ArrayList<>();
+    @FindBy(how = How.XPATH, using ="//a[contains(text(),'Help Center')]")
+    public static WebElement checkHelpCenter;
+
     //T3ALI_HP_TC01 Verify Home Page URL
     public String searchProduct() {
         String url = driver.getCurrentUrl();
@@ -135,13 +127,8 @@ public class HomePageItems extends CommonAPI {
     }
     //T3ALI_HP_TC04 Verify by Sourcing Solutions
     public String sourcingSolutions() {
-        //hover Sourcing Solutions
         Actions act = new Actions(driver);
         act.moveToElement(sourcingSolutions).build().perform();
-        // clcik top selected suppliers
-        boolean bl = topSelectedSuppliers.isEnabled();
-        // boolean bl = isEnableStatus(driver,topSelectedSuppliers);
-        System.out.println("Top Selected Suppliers link status: " + bl);
         System.out.println(topSelectedSuppliers.getText());
         topSelectedSuppliers.click();
         switchWindow(driver);
@@ -177,17 +164,18 @@ public class HomePageItems extends CommonAPI {
         handTools.click();
         switchWindow(driver);
         String url = driver.getCurrentUrl();
+        System.out.println(url);
         return url;
     }
     // T3ALI_HP_TC07 verify logo displayed on homepage or not
     public boolean clickLogo() {
-        boolean displayed = logo.isDisplayed();
+        //boolean displayed = logo.isDisplayed();
         boolean enabled = logo.isEnabled();
         return enabled;
     }
     // T3ALI_HP_TC08 Verify Order Protection Link
     public boolean orderProtectionButtonStatus() {
-        boolean displayed = orderProtectionButton.isDisplayed();
+        //boolean displayed = orderProtectionButton.isDisplayed();
         boolean enabled = orderProtectionButton.isEnabled();
         return enabled;
     }
@@ -277,9 +265,15 @@ public class HomePageItems extends CommonAPI {
         googleIconOnPoPUpSignInWindow.click();
     }
     //Verify all available links in HomePage
-    /*public void findNumberOfLinksInHomePage() throws IOException {
+    public void findNumberOfLinksInHomePage() throws IOException {
         List<String> actualLinkList = findNumberOfLink(anchorTag);
         List<String> expectedLinkList = getAssertData("../AliBaba/data/HomePageLinkData.xls",2);
         assertData(actualLinkList,expectedLinkList);
-    }*/
+    }
+    public WebElement getCheckHelpCenter() {
+        return checkHelpCenter;
+    }
+    public void checkHelpCenterLink(){
+        getCheckHelpCenter().click();
+    }
 }

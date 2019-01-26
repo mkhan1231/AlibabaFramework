@@ -17,6 +17,7 @@ public class SearchPageForSQLDB {
     public static WebElement searchInputWebElement;
     @FindBy(how = How.CSS, using =".ui-searchbar-button-icon")
     public static WebElement submitButtonWebElement;
+
     public WebElement getSearchInputWebElement() {
         return searchInputWebElement;
     }
@@ -32,15 +33,6 @@ public class SearchPageForSQLDB {
     public void clearInput(){
         getSearchInputWebElement().clear();
     }
-
-//    public List<String> getMenuData(){
-//        List<String> data = new ArrayList<>();
-//        data.add("Laptop");
-//        data.add("honey");
-//        data.add("power bank");
-//
-//        return data;
-//    }
     public void searchItemsAndSubmitButton()throws Exception, IOException, SQLException, ClassNotFoundException  {
         DatabaseOperation databaseOperation = new DatabaseOperation();
         List<String> list = databaseOperation.getItemsListFromDB();
@@ -51,11 +43,9 @@ public class SearchPageForSQLDB {
             clearInput();
         }
     }
-
     public WebElement getSearchInputField() {
         return searchInputWebElement;
     }
-
     public void setSearchInputField(WebElement searchInputField) {
         this.searchInputWebElement = searchInputField;
     }

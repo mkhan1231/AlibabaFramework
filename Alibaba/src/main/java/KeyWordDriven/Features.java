@@ -25,7 +25,7 @@ public class Features extends CommonAPI {
     public void signIn() throws InterruptedException {
         objOfSignInPage.signIn();
     }
-    public void selectAction(String featureName) throws IOException, InterruptedException {
+    public void selectAction(String featureName) throws InterruptedException {
         switch (featureName) {
             case "ClickSignIn":
                 clickSignIn();
